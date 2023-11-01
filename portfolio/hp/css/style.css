@@ -1,0 +1,556 @@
+@charset "utf-8";
+
+/*Reset*/
+*{margin: 0; padding: 0;}
+li{list-style: none}
+a{color: #333; text-decoration: none}
+body{font-family: '나눔고딕','Naum Gothic', sans-serif;}
+button{border: 0}
+
+
+#header{width:100% ; height:100px ;min-width: 1200px}
+#visual{width: 100%; height: 600px; background: url(../images/bg2.jpg) center no-repeat ; margin-top: 20px;min-width: 1200px}
+#visual2{width: 100%; height: 600px; background: url(../images/sub01_01visual.jpg) center no-repeat ;min-width: 1200px}
+#visual3{width: 100%; ;padding-top: 50px}
+#section{width: 100%; height: 495px;  padding-top: 100px; }
+#contents{width: 100%; height: 516px;  background: #ebebeb; background: url(../images/medical.jpg) center no-repeat;min-width: 1200px}
+#contents2{width: 100%; height: 1250px; padding-top: 140px;}
+#contents3{width: 100%; height: 1600px; padding-top: 140px;}
+#contents4{width: 100%; height: 1600px; padding-top: 140px;}
+#contents5{width: 100%; height: 2200px; padding-top: 100px; }
+#contents6{width: 100%; height: 2800px; padding-top: 100px;}
+#board{width: 100%; height: 500px; }
+#footer{width: 100%; height: 200px;background: #565656}
+
+#header .box{width: 100%; height: 80px; }
+#header .box h1{width: 140px; height: 50px; margin: 0 auto; padding-top:10px }
+#header .box .boxtwo{width:1200px; height: 80px; margin: 0 auto}
+#header .box ul {margin: 0 10px; float: right; height: 30px;}
+#header .box ul li {float:left; padding:0 2px;}
+#header .head_box {}
+#header .head_box .gnb {width: 1200px; height: 40px;  background: #2e5dbc ; margin: 0 auto; text-align: center }
+#header .head_box .gnbbox{width: 100%; background:#2e5dbc }
+#header .head_box .gnb >ul {position: relative; z-index: 4;  }
+#header .head_box .gnb >ul> li{color:#fff;font-size: 20px; display: inline-block; padding:7px 70px; position: relative; } 
+#header .head_box .gnb >ul> li a{color: #fff;}
+.gnb li .submenu  {font-size: 15px;  position: absolute; left: 0; top:50px; width: 220px; height: 500px; line-height: 40px; display:none; }
+
+.gnb li .submenu2 {position: absolute; z-index: 3; width:110px; padding:6px 5px; left: 150px; top: -0px;display: none; background:rgba(0,0,0,0.5) }
+.gnb li .submenu li:hover .submenu2{display: block}
+.gnb li .submenu2  li{font-size:15px; padding:6px 0px; }
+.gnb li .submenu2  li a{color: #7c7c7c; left: 150px; top: -0px;}
+
+#header .head_box .gnb .allmenu_box {width: 100%; height: 400px; background: #2e5dbc; position: absolute; left:0; top:115px;z-index: 3; display: none;min-width: 1200px}
+.allmenu_box ul li{font-size: 30px; color: #fff; margin-top: 220px; margin-left: -900px}
+.allmenu_box ul li.alltext{margin-top: 20px; position: relative; left: 30px;}
+.allmenu_box ul li.alltext2{margin-top: -90px; margin-left: -150px; font-size: 20px}
+
+/*메인*/
+#section .contents_box{width: 1176px; height: 344px; margin: 0 auto ;min-width: 1200px}
+
+.contents_box .box{width:289px;height: 344px;background: url('../images/section_box1.jpg');border: 3px solid #fff ;float: left;}
+.contents_box .box21{width:286px;height: 344px;background: url('../images/section_box2.jpg');border: 3px solid #fff;float: left; }
+.contents_box .box31{width:291px;height: 344px;background: url('../images/section_box3.jpg');border: 3px solid #fff;float: left; }
+.contents_box .box41{width:286px;height: 344px;background: url('../images/section_box4.jpg');border: 3px solid #fff;float: left; }
+
+
+.contents_box .box .icon  li{font-size: 20px; text-align: center; padding-top: 10px;font-weight: bold;margin-top: 18px; }
+.contents_box .box .icon  li p {font-size: 18px; text-align: left; margin-left: 60px;font-weight: normal;margin-top: -20px;}
+.contents_box .box .icon h2{width: 85px; height: 70px; margin: 0 auto ;padding-top: 105px;}
+
+.contents_box .box21 .icon2  li {font-size: 20px; text-align: center; padding-top: 12px;font-weight: bold;margin-top: 15px; }
+.contents_box .box21 .icon2  li p {font-size: 18px; text-align: left; margin-left: 40px;font-weight: normal;margin-top: -20px;}
+.contents_box .box21 .icon2 h2{width: 85px; height: 70px; margin: 0 auto ;padding-top: 105px;}
+
+.contents_box .box31 .icon3  li {font-size: 20px; text-align: center; padding-top: 12px;font-weight: bold;margin-top: 15px; }
+.contents_box .box31 .icon3  li p {font-size: 18px; text-align: left; margin-left: 55px;font-weight: normal;margin-top: -20px;}
+.contents_box .box31 .icon3 h2{width: 85px; height: 70px; margin: 0 auto ;padding-top: 105px;}
+
+.contents_box .box41 .icon4  li {font-size: 20px; text-align: center; padding-top: 13px;font-weight: bold;margin-top: 15px; }
+.contents_box .box41 .icon4  li p {font-size: 18px; text-align: left; margin-left: 55px;font-weight: normal;margin-top: -20px;}
+.contents_box .box41 .icon4 h2{width: 85px; height: 70px; margin: 0 auto ;padding-top: 105px;}
+
+
+
+#contents .button_box{width: 1166px; height: 430px;  margin: 0 auto;min-width: 1200px  }
+ 
+ .button_box .button h2{font-size: 33px;margin-left: 70px; position: relative; top: 70px}
+ .button_box .button li {width: 280px; height: 68px;  background:#fff; font-size: 22px; float: left; margin: 20px;
+  text-align:center; line-height: 68px; margin-left: 80px; position: relative; top: 80px; ; font-weight:bold}
+ .button_box .button li a{ margin: 20px; } 
+ .button_box .button li:hover{background: steelblue; }
+ .button_box .button li:hover a {color: #fff}
+
+
+
+
+#board .notice{width: 1166px; height: 506px;  margin:0 auto}
+#board .notice .textt{width: 535px; height: 500px;  float: left; margin-left: 40px}
+#board .notice2 .text2{width: 535px; height: 500px; float: left;margin-left: 40px}
+
+
+.notice .textt h2{font-size: 30px; margin: 40px;  width: 450px; height:55px ; border-bottom: 1px solid #ddd;}
+.notice .textt span{width:200px;  border: 2px solid #00a5ea; position: absolute; margin-top: -43px; margin-left: 40px}
+.notice .textt li{ font-size: 18px; margin: 25px}
+.notice .textt li a{margin-left: 20px; margin-top: -50px}
+
+ .notice2 .text2 h2{font-size: 30px; margin: 40px;  width: 450px; height:55px ; border-bottom: 1px solid #ddd;}
+ .notice2 .text2 li{margin-left: 30px; font-size: 18px; margin: 25px }
+ .notice2 .text2 li a{margin-left: 20px; margin-top: -50px}
+ .notice2 .text2 span{width:200px;  border: 2px solid #00a5ea; position: absolute; margin-top: -43px; margin-left: 40px}
+
+
+
+/*회원가입*/
+#contents3 .contents_box2{width: 1158px; height: 1520px; margin: 0 auto;   }
+.contents_box2 h1{text-align: center}
+.contents_box2 h3{text-align: center; font-weight: normal;margin-top: 50px}
+.contents_box2 h2{text-align: center;font-weight: normal;margin-top: 100px;}
+.contents_box2 textarea{width: 1086px; height: 350px; margin-left: 45px; margin-top: 50px; font-size: 15px;background: #f8f8f8;border:1px solid #ddd;border-top: 2px solid #3972dc;}
+.contents_box2 input[type=checkbox] {width: 30px;height: 30px; margin-top: 15px;margin-left: 800px}
+.contents_box2 span{font-size: 15px; margin-top: -15px;}
+
+
+.contents_box3 h1{text-align: center; font-weight: normal}
+.contents_box3 h3{text-align: center; font-weight: normal;margin-top: 0px}
+.contents_box3 h2{text-align: center;font-weight: normal;font-weight: normal; margin-top: 100px}
+.contents_box3 textarea{width: 1086px; height: 350px;  margin-top:90px ; font-size: 15px;background: #f8f8f8;border:1px solid #ddd;border-top: 2px solid #3972dc;margin-left:50px;}
+.contents_box3 input[type=checkbox] {width: 30px;height: 30px; margin-top: 15px;margin-left: 800px}
+.contents_box3 span{font-size: 15px; margin-top: -15px; margin-left: 5px}
+.contents_box3  ul img{margin-left: 400px;margin-top: 70px}
+
+/*로그인*/
+
+.login_wrap form{width: 250px;height: 265px; margin-top: 45px; margin: 45px auto 0 auto }
+.login_wrap form input{width: 250px; height: 46px; border: 1px solid #ddd; font-size: 16px;text-indent: 8px;
+margin-bottom: 10px; box-sizing: border-box;position: relative; left: -50px;}
+.login_wrap form div input[type=checkbox] {width:18px;height: 18px; float: left; margin-left: 5px;}
+.login_wrap form div span{font-size: 14px; margin-left: -30px}
+.login_wrap form button{width: 95px; height: 95px; background: #2e5dbc; color: #fff;font-size: 18px;cursor: pointer; margin-left: 220px;position: relative;top: -138px}
+.login_wrap form .find_info{margin-top: 12px;}
+.login_wrap form .find_info a{border: 1px solid #688ead; width: 203px; height: 40px; float: left; text-align: center; line-height: 40px; font-size: 13px;margin-top: -100px; margin-left: -60px}
+.login_wrap form .find_info a.no_borleft{border-left: 0; padding-left: 200px }
+.login_wrap form .find_info a i{margin: 5px}
+.contents_box4 h4{width: 1050px; height: 190px; font-weight: normal; margin-top: -50px;margin-left: -70px;}
+
+
+/*아이디.비밀번호찾기*/
+#contents4 .id{width: 1156px; height: 1027px; margin: 0 auto; }
+.id .id2{width: 1156px; height: 510px;  }
+.id .id2 h3{margin-top: 45px}
+.id2 .idbox{width: 356px; height: 268px; background: #ebebeb; border: 2px solid #b7b7b7; margin-top: 60px; float: left; }
+.id2 .idbox h2{font-weight: normal;margin-left: 140px;margin-top: 40px}
+.id2 .idbox h3{font-weight:  normal; margin-left: 80px;margin-top: 10px}
+.id2 .idbox img{margin-left: 120px; margin-top: 15px}
+.id2 .idbox2{width: 356px; height: 268px; background: #ebebeb; border: 2px solid #b7b7b7; margin-top: 60px; float: left; margin-left: 20px }
+.id2 .idbox2 h2{font-weight: normal;margin-left: 105px;margin-top: 40px}
+.id2 .idbox2 h3{font-weight:  normal; margin-left: 80px;margin-top: 10px}
+.id2 .idbox2 img{margin-left: 120px; margin-top: 15px}
+.id2 .idbox3{width: 356px; height: 268px; background: #ebebeb; border: 2px solid #b7b7b7; margin-top: 60px; float: left; margin-left: 20px }
+.id2 .idbox3 h2{font-weight: normal;margin-left: 140px;margin-top: 40px}
+.id2 .idbox3 h3{font-weight:  normal; margin-left: 105px;margin-top: 10px}
+.id2 .idbox3 img{margin-left: 140px; margin-top: 15px}
+
+.id .id3{width: 1156px; height: 510px;  }
+.id .id3 h3{margin-top: 45px}
+
+.id3 .idbox{width: 356px; height: 268px; background: #ebebeb; border: 2px solid #b7b7b7; margin-top: 60px; float: left; }
+.id3 .idbox h2{font-weight: normal;margin-left: 140px;margin-top: 40px}
+.id3 .idbox h3{font-weight:  normal; margin-left: 80px;margin-top: 10px}
+.id3 .idbox img{margin-left: 120px; margin-top: 15px}
+.id3 .idbox2{width: 356px; height: 268px; background: #ebebeb; border: 2px solid #b7b7b7; margin-top: 60px; float: left; margin-left: 20px }
+.id3 .idbox2 h2{font-weight: normal;margin-left: 105px;margin-top: 40px}
+.id3 .idbox2 h3{font-weight:  normal; margin-left: 80px;margin-top: 10px}
+.id3 .idbox2 img{margin-left: 120px; margin-top: 15px}
+.id3 .idbox3{width: 356px; height: 268px; background: #ebebeb; border: 2px solid #b7b7b7; margin-top: 60px; float: left; margin-left: 20px }
+.id3 .idbox3 h2{font-weight: normal;margin-left: 140px;margin-top: 40px}
+.id3 .idbox3 h3{font-weight:  normal; margin-left: 105px;margin-top: 10px}
+.id3 .idbox3 img{margin-left: 140px; margin-top: 15px}
+
+
+/*간편진료 예약(sub01_01)*/
+#contents2 .inform{width: 1156px; height: 640px; margin: 0 auto}
+.inform h1{font-weight: normal}
+.inform .inform2{width: 1068px; height: 430px; background: #ebebeb; border: 1px solid #c2c2c2;margin-top: 50px; font-size: 20px}
+.inform .inform2 p {margin-top: 20px;margin-left: 75px; position: relative; top: 80px}
+.inform input[type=checkbox]{margin-left: 680px; margin-top: 25px}
+#contents2 .phonenumber{width: 1156px; height: 195px; margin: 0 auto}
+.phonenumber .phonenumber2{width: 268px; height: 95px; background: #0054a6; float: left;border: 1px solid #7d7d7d}
+.phonenumber .phonenumber2 span{color: #fff; font-size: 20px; text-align: center; display: block; padding: 30px}
+.phonenumber .phonenumber3{width: 802px; height: 95px; background: #fff; border: 1px solid #7d7d7d;float: left;}
+.phonenumber .phonenumber4{width: 268px; height: 95px; background: #0054a6; border: 1px solid #7d7d7d;float: left;  }
+.phonenumber .phonenumber4 span{font-size: 20px; text-align: center; display: block; color: #fff; padding: 30px;}
+.phonenumber .phonenumber5{width: 802px; height: 95px; background: #fff; border: 1px solid #7d7d7d; float: left;margin-top: 76px; margin-left: -1px}
+.number{width: 802px; height: 95px; }
+.number form input{width: 210px; height: 55px;background: #ededed; margin-top: 15px; margin-left: 30px; border: 4px solid#7d7d7d}
+#contents2 .easy{width: 268px; height: 95px; background: #0054a6; margin: 0 auto; margin-top: 60px}
+.easy p a{font-size: 20px; color: #fff; text-align: center; display: block; padding: 30px}
+
+/*검사결과(sub01_02)*/
+.login_wrap legend{width: 1156px; height: 80px;line-height: 80px;  border-bottom: 2px solid #688ead;
+    text-align: center; font-size: 30px; margin: 0 auto}
+.login_wrap form{width: 250px;height: 265px; margin-top: 45px; margin: 45px auto 0 auto }
+.login_wrap form input{width: 250px; height: 46px; border: 1px solid #ddd; font-size: 16px;text-indent: 8px;
+margin-bottom: 10px; box-sizing: border-box;position: relative; left: -50px;}
+.login_wrap form div input[type=checkbox] {width:18px;height: 18px; float: left; margin-left: 5px;}
+.login_wrap form div span{font-size: 14px; margin-left: -30px}
+.login_wrap form button{width: 95px; height: 95px; background: #2e5dbc; color: #fff;font-size: 18px;cursor: pointer; margin-left: 220px;position: relative;top: -138px}
+.login_wrap form .find_info{margin-top: 12px;}
+.login_wrap form .find_info a{border: 1px solid #688ead; width: 203px; height: 40px; float: left; text-align: center; line-height: 40px; font-size: 13px;margin-top: -100px; margin-left: -60px}
+.login_wrap form .find_info a.no_borleft{border-left: 0; padding-left: 200px }
+.login_wrap form .find_info a i{margin: 5px}
+.contents_box5 h4{width: 1050px; height: 190px; font-weight: normal; margin-top: -50px;margin-left: -70px;}
+
+/*진료내역(sub01_03)*/
+.login_wrap legend{width: 1156px; height: 80px;line-height: 80px;  border-bottom: 2px solid #688ead;
+    text-align: center; font-size: 30px; margin: 0 auto}
+.login_wrap form{width: 250px;height: 265px; margin-top: 45px; margin: 45px auto 0 auto }
+.login_wrap form input{width: 250px; height: 46px; border: 1px solid #ddd; font-size: 16px;text-indent: 8px;
+margin-bottom: 10px; box-sizing: border-box;position: relative; left: -50px;}
+.login_wrap form div input[type=checkbox] {width:18px;height: 18px; float: left; margin-left: 5px;}
+.login_wrap form div span{font-size: 14px; margin-left: -30px}
+.login_wrap form button{width: 95px; height: 95px; background: #2e5dbc; color: #fff;font-size: 18px;cursor: pointer; margin-left: 220px;position: relative;top: -138px}
+.login_wrap form .find_info{margin-top: 12px;}
+.login_wrap form .find_info a{border: 1px solid #688ead; width: 203px; height: 40px; float: left; text-align: center; line-height: 40px; font-size: 13px;margin-top: -100px; margin-left: -60px}
+.login_wrap form .find_info a.no_borleft{border-left: 0; padding-left: 200px }
+.login_wrap form .find_info a i{margin: 5px}
+.contents_box5 h4{width: 1050px; height: 190px; font-weight: normal; margin-top: -50px;margin-left: -70px;}
+
+/*진료예약방법(sub02_01)*/
+#contents5  .Reservation {width: 1200px; height: 2300px;  margin: 0 auto}
+.Reservation2{width: 1200px; height: 442px; border-bottom: 1px solid #333 }
+.Reservation2 img{margin-top: 135px; margin-left: 70px; float: left; }
+.Reservation2 h2{position: relative; top: 60px; left: 100px;}
+.Reservation2 p {margin-top: 100px;position: relative; left: 100px}
+.Reservation2 span{color: #1a6ead; font-size: 20px}
+.Reservation2 p.two{position: relative; left: 100px; top: -80px}
+.Reservation2 p.two span{color: #1c8136}
+.Reservation2 p.three{margin-left: 320px; margin-top: -70px}
+.Reservation2 p.three span{color: #1c8136}
+.Reservation2 p.four{margin-left: 250px; font-size: 30px;color: #1c8136}
+.Reservation2 p.five{margin-left: 500px; margin-top: -50px}
+.Reservation3{width: 1200px; height: 442px; border-bottom: 1px solid #333 }
+.Reservation3 img{margin-top: 135px; margin-left: 70px; float: left; }
+.Reservation3 h2{position: relative; top: 60px; left: 360px;}
+.Reservation3 p {margin-top: 100px;position: relative; left: 100px}
+.Reservation3 span{color: #1a6ead; font-size: 20px}
+.Reservation3 p.six{margin-top: 20px; }
+.Reservation3 p.seven a{width: 200px; height: 45px;background: #003f80; border-radius: 50px; margin-left: 250px; display: block; margin-top: -70px; text-align: center;color: #fff;
+font-size:20px; line-height: 40px}
+.Reservation3 p.eight{ margin-left: 250px; margin-top: 10px}
+.Reservation3 p.eight span{color: #1a6ead}
+.Reservation3 p.nine{margin-left: 293px;margin-top: 10px;color: #1a6ead; font-size:20px}
+.Reservation3 p.ten {margin-top: 30px;position: relative; left: 350px}
+.Reservation4{width: 1200px; height: 442px; border-bottom: 1px solid #333 }
+.Reservation4 img{margin-top: 135px; margin-left: 70px; float: left; }
+.Reservation4 h2{position: relative; top: 60px; left: 100px;}
+.Reservation4 p {margin-top: 100px;position: relative; left: 100px}
+.Reservation4 p.two{position: relative; left: 100px; top: -50px}
+.Reservation4 p.seven a{width: 200px; height: 45px;background: #003f80; border-radius: 50px; margin-left: 250px; display: block; margin-top: -80px; text-align: center;color: #fff;
+    font-size:20px; line-height: 40px}
+.Reservation4 p.seven2 a{width: 200px; height: 45px;background: #003f80; border-radius: 50px; margin-left: 500px; display: block; margin-top: -145px; text-align: center;color: #fff;
+        font-size:20px; line-height: 40px}
+.Reservation5{width: 1200px; height: 442px; border-bottom: 1px solid #333 }
+.Reservation5 img{margin-top: 135px; margin-left: 70px; float: left; }
+.Reservation5 h2{position: relative; top: 150px; left: 100px;}
+.Reservation5 p.four{margin-left: 350px; font-size: 30px;color: #1c8136; margin-top: 200px}
+.Reservation5 p.ten2{margin-left: 600px; margin-top: -45px}
+.Reservation5 p.seven a{width: 200px; height: 45px;background: #003f80; border-radius: 50px; margin-left: 750px; display: block; margin-top: 30px; text-align: center;color: #fff;
+    font-size:20px; line-height: 40px}
+    .Reservation6{width: 1200px; height: 442px; border-bottom: 1px solid #333 }
+    .Reservation6 img{margin-top: 85px; margin-left: 70px; float: left; }
+    .Reservation6 h2{position: relative; top: 60px; left: 100px;}
+    .Reservation6 p {margin-top: 100px;position: relative; left: 100px}
+    .Reservation6 p.seven a{width: 250px; height: 45px;background: #003f80; border-radius: 50px; margin-left: 650px; display: block; margin-top: -50px; text-align: center;color: #fff;
+        font-size:20px; line-height: 40px}
+
+
+
+
+/*의료진 소개(sub03_01)*/
+#contents5 .doctor{width: 1200px; height: 60px;border-bottom: 3px solid #1c8136; margin: 0 auto; 
+    margin-top: -50px; font-weight: normal;}
+
+
+.doctorbox{width: 1065px; height: 2000px; margin: 0 auto; margin-top: 50px;}
+.doctor2{width:264px; height:381px ;  margin-top: 45px; float: left; }
+.doctortext{width:686px; height: 381px ; float: left; margin-top: 45px;}
+.doctortext ul li{margin-left: 30px; margin-top: 20px; font-size: 20px; }
+.doctortext ul li.kim{margin-left: 150px; margin-top: -22px}
+.doctortext ul li.kim2{margin-top: 50px}
+.doctortext ul li.button{margin-left: 136px;margin-top: 50px}
+.doctortext ul li.kim3{float: left;margin-top: 40px}
+
+.doctor3{width:264px; height:381px ; margin-top: 45px;float: left;margin-top: 80px}
+.doctortext2{width:686px; height: 381px ; float: left; margin-top: 45px;margin-top: 80px}
+.doctortext2 ul li{margin-left: 30px; margin-top: 20px; font-size: 20px; }
+.doctortext2 ul li.kim{margin-left: 150px; margin-top: -22px}
+.doctortext2 ul li.kim2{margin-top: 50px}
+.doctortext2 ul li.button{margin-left: 136px;margin-top: 50px}
+.doctortext2 ul li.kim3{float: left;margin-top: 40px}
+
+.doctor4{width:264px; height:381px ;  margin-top: 45px; float: left;margin-top: 80px}
+.doctortext3{width:686px; height: 381px ; float: left; margin-top: 45px;margin-top: 80px}
+.doctortext3 ul li{margin-left: 30px; margin-top: 20px; font-size: 20px; }
+.doctortext3 ul li.kim{margin-left: 150px; margin-top: -22px}
+.doctortext3 ul li.kim2{margin-top: 50px}
+.doctortext3 ul li.button{margin-left: 136px;margin-top: 50px}
+.doctortext3 ul li.kim3{float: left;margin-top: 40px}
+
+.doctor5{width:264px; height:381px ;  margin-top: 45px; float: left;margin-top: 80px}
+.doctortext4{width:686px; height: 381px ; float: left; margin-top: 45px;margin-top: 80px}
+.doctortext4 ul li{margin-left: 30px; margin-top: 20px; font-size: 20px; }
+.doctortext4 ul li.kim{margin-left: 150px; margin-top: -22px}
+.doctortext4 ul li.kim2{margin-top: 50px}
+.doctortext4 ul li.button{margin-left: 136px;margin-top: 50px}
+.doctortext4 ul li.kim3{float: left;margin-top: 40px}
+
+/*진료시간표(sub03_02)*/
+#contents5 .table{width: 1156px; height: 1983px;  margin: 0 auto}
+.table .table2{width: 1156px; height: 376px; border: 1px solid #c3c3c3}
+.table .table_box{width: 332px; height: 376px; background: #fff; float: left;}
+.table .table_box img{margin-left: 40px; margin-top: 50px;float: left; float: left;}
+.table .table_box2{width: 824px; height: 376px; margin-left: 332px  }
+.table_box2 ul li{position: relative; top: 70px; font-size: 20px;}
+.table_box2 .tabletext{margin-top: 65px}
+
+.table .table3{width: 1156px; height: 376px; border: 1px solid #c3c3c3; margin-top: 315px}
+.table .table_box{width: 332px; height: 376px; background: #fff; float: left;}
+.table .table_box img{margin-left: 40px; margin-top: 50px;float: left; float: left;}
+.table .table_box3{width: 824px; height: 376px; margin-left: 332px  }
+.table_box3 ul li{position: relative; top: 70px; font-size: 20px;}
+.table_box3 .tabletext{margin-top: 65px}
+
+.table .table4{width: 1156px; height: 376px; border: 1px solid #c3c3c3; margin-top: 315px}
+.table .table_box{width: 332px; height: 376px; background: #fff; float: left;}
+.table .table_box img{margin-left: 40px; margin-top: 50px;float: left; float: left;}
+.table .table_box4{width: 824px; height: 376px; margin-left: 332px  }
+.table_box4 ul li{position: relative; top: 70px; font-size: 20px;}
+.table_box4 .tabletext{margin-top: 65px ;}
+
+.table .table_box5 h2{ margin-top:15px; margin-left: 100px; color: #0054a6 ; width: 60px; height: 50px;float: left;}
+.table .table_box5 ul li{width: 210px; height: 45px; background:#dc8f16; font-size: 24px;border-radius: 10px; color: #fff; float: left;
+margin-top: 10px;text-align: center;padding-top: 10px}
+
+.tablebox table{width: 1156px; height: 240px; background: #e1e1e1; border: 1px solid #fff; text-align: center; font-size: 20px;
+margin-left: 0px;position: relative; top: 5px  }
+.tablebox table{border: 1px solid #f0f0f1}
+.tablebox table th {border: 1px solid #5d5d5d}
+.tablebox table td {border: 1px solid #5d5d5d}
+.tablebox table tr.one td p{width: 50px; height: 50px; background: cornflowerblue; border-radius: 50px; margin: 0 auto}
+
+/*여성암센터 소개(sub03_03)*/
+#contents5 .woman{width: 1156px; height: 1470px;  margin: 0 auto; }
+.woman .womanbox{width:437px; height: 613px; float: left; }
+.woman .womanbox img{margin-top: 20px}
+.woman h2{ height: 50px; width: 1156px; border-bottom: 3px solid green}
+.woman .womanbox2{width: 719px; height: 700px; float: left;}
+.woman .womanbox2 li.wtext{font-size: 22px;; margin-left: 30px; margin-top: 60px}
+.woman .womanbox2 li.wtext2{font-size: 22px; margin-top: 30px; margin-left: 30px}
+.woman .womanbox2 li.wtext3{font-size: 22px; margin-top: 30px; margin-left: 30px}
+.woman .womanbox2 li.wtext4{font-size: 22px; margin-top: 30px; margin-left: 30px}
+.woman .womanbox3{width: 1156px; height: 700px; float: left;}
+.woman .womanbox3 li.woman2{font-size: 22px}
+.woman .womanbox3 li.woman2 p{font-weight: bold; color: #2c6de6}
+.woman .womanbox3 li.woman3{font-size: 22px; margin-top: -250px; margin-left: 560px}
+.woman .womanbox3 li.woman3 p{font-weight: bold; color: #2c6de6}
+.woman .womanbox3 li.woman4{font-size: 22px; margin-top: 130px}
+.woman .womanbox3 li.woman4 p{font-weight: bold; color: #2c6de6}
+.woman .womanbox3 li.woman5{font-size: 22px; margin-top: -185px; margin-left: 560px}
+.woman .womanbox3 li.woman5 p{font-weight: bold; color: #2c6de6}
+.woman .womanbox3 li.woman6{font-size: 22px; margin-top: 30px}
+.woman .womanbox3 li.woman6 p{font-weight: bold; color: #2c6de6}
+
+/*진료과 (sub02_02)*/
+#contents3 .tab_box2{width: 1143px; height: 1615px; margin: 0 auto;margin-top: -50px}
+.tab_box{width: 1100px; height: 1530px;  float: left;margin: 37px 0 0 49px;}
+.tab_box h2{width: 578px; height: 40px;position: absolute; top: -40px; border: 1px solid #c3c3c3 ;
+background: #fff;margin-left: -2px}
+.tab_box h2.active {background: #2c6de6}
+.tab_box h2.active a{color: #fff}
+
+.box4{width: 1100px; height: 1300px; float: left;position: absolute; background: #f0f0f0;z-index: 
+    2; margin-left: -40px; border: 1px solid #c3c3c3;}
+.box4 h2{font-size: 22px; margin-top: -2px; margin-left: -3px; text-align: center}
+.box4 li{font-size: 20px;float: left;margin-bottom: 5px ; margin-top: 40px; width: 300px; height: 65px;background: #fff; border:1px solid #c3c3c3; line-height: 65px; text-align: center;
+margin-left: 50px; top: 160px; position: relative; font-weight: normal }
+.box4 li.day{width: 70px; height: 15px;}
+.box4 li:hover{background: #2c6de6}
+.box4 li:hover a{color: #fff}
+
+.gallery_box{width: 1100px; height:1300px; float: left;position: absolute;background:#f0f0f0;z-index: 1; margin-left: -40px;border: 1px solid #c3c3c3}
+.gallery_box h2{margin-left: 530px;width: 578px;text-align: center; margin-top: -2px;background: #fff; left: -8px;font-weight: normal}
+.gallery_box li{font-size: 20px;float: left;margin-bottom: 40px ; margin-top: 40px; width:300px; height: 65px;background: #fff;border: 1px solid #c3c3c3;
+line-height: 65px;text-align: center; margin-left: 50px ;position: relative; top: 160px}
+.gallery_box li.day{width: 70px; height: 15px;}
+.gallery_box h2.active {background: #2c6de6}
+.gallery_box li:hover{background: #2c6de6}
+.gallery_box li:hover a{color: #fff}
+
+
+/*진료분야 찾기(sub02_03)*/
+#contents3 .search{width: 920px; height: 235px; margin: 0 auto;margin-top: 180px }
+.search ul {font-size: 25px; margin-left: 40px; padding-top: 50px; float: left;}
+.search li{float: left; }
+.search li input{width: 560px; height: 60px; margin-top: -10px; margin-left: 40px; background: #ededed; font-size: 20px; text-indent: 5px;border: 1px solid #959595}
+.search li i {width:50px; height: 50px; background: #003471 ;font-size: 40px; color: white; padding-left: 10px; padding-top: 10px; margin-left:30px; margin-top: -15px }
+.search li.name2{margin-left: 40px; }
+.search li select{font-size: 24px;width: 262px; height: 60px;margin-top: -15px; text-align: center;font-weight: normal}
+
+
+/*관련 질병별 보기(sub04_01)*/
+#contents6 .bottle{width: 1070px; height: 60px;border-bottom: 3px solid #1c8136; margin: 0 auto; margin-top: -50px; font-weight: normal}
+.bottlebox{width: 1036px; height: 280px; background: #dedede; margin: 0 auto;margin-top: 30px}
+.bottlebox ul li{line-height: 30px; margin-left: 230px;margin-top: 30px; font-size: 20px}
+.bottlebox ul li.t{ margin-left: 600px; position: relative;top: -300px}
+
+.bottlebox2{width: 1044px; height: 222px;  margin: 0 auto;margin-top: 60px}
+.bottlebox2 h2{width: 995px; height: 45px; border-bottom: 1px solid #2e5dbc; margin-left: 30px;font-size: 18px;font-weight: bold}
+.bottlebox2 ul li{float: left; margin-left: 75px;margin-top: 40px}
+
+.bottlebox3{width: 1044px; height: 202px;  margin: 0 auto;margin-top: 60px}
+.bottlebox3 h2{width: 995px; height: 45px; border-bottom: 1px solid #2e5dbc; margin-left: 30px;font-size: 18px;font-weight: bold}
+.bottlebox3 ul li{float: left; margin-left: 60px;margin-top: 20px}
+
+.bottlebox4{width: 1044px; height: 120px;  margin: 0 auto;margin-top: 60px}
+.bottlebox4 h2{width: 995px; height: 45px; border-bottom: 1px solid #2e5dbc; margin-left: 30px;font-size: 18px;font-weight: bold}
+.bottlebox4 ul li{float: left; margin-left: 60px;margin-top: 20px}
+
+.bottlebox5{width: 1044px; height: 182px;  margin: 0 auto;margin-top: 60px}
+.bottlebox5 h2{width: 995px; height: 45px; border-bottom: 1px solid #2e5dbc; margin-left: 30px;font-size: 18px;font-weight: bold}
+.bottlebox5 ul li{float: left; margin-left: 60px;margin-top: 20px}
+
+.bottlebox6{width: 1044px; height: 130px;  margin: 0 auto;margin-top: 60px}
+.bottlebox6 h2{width: 995px; height: 45px; border-bottom: 1px solid #2e5dbc; margin-left: 30px;font-size: 18px;font-weight: bold}
+.bottlebox6 ul li{float: left; margin-left: 60px;margin-top: 20px}
+
+.bottlebox7{width: 1044px; height: 180px;  margin: 0 auto;margin-top: 60px}
+.bottlebox7 h2{width: 995px; height: 45px; border-bottom: 1px solid #2e5dbc; margin-left: 30px;font-size: 18px;font-weight: bold}
+.bottlebox7 ul li{float: left; margin-left: 60px;margin-top: 20px}
+
+.bottlebox8{width: 1044px; height: 150px; margin: 0 auto;margin-top: 60px}
+.bottlebox8 h2{width: 995px; height: 45px; border-bottom: 1px solid #2e5dbc; margin-left: 30px;font-size: 18px;font-weight: bold}
+.bottlebox8 ul li{float: left; margin-left: 60px;margin-top: 20px}
+
+.bottlebox9{width: 1044px; height: 150px;  margin: 0 auto;margin-top: 60px}
+.bottlebox9 h2{width: 995px; height: 45px; border-bottom: 1px solid #2e5dbc; margin-left: 30px;font-size: 18px;font-weight: bold}
+.bottlebox9 ul li{float: left; margin-left: 60px;margin-top: 20px}
+
+.bottlebox10{width: 1044px; height: 150px;  margin: 0 auto;margin-top: 60px}
+.bottlebox10 h2{width: 995px; height: 45px; border-bottom: 1px solid #2e5dbc; margin-left: 30px;font-size: 18px;font-weight: bold}
+.bottlebox10 ul li{float: left; margin-left: 60px;margin-top: 20px}
+
+.bottlebox11{width: 1044px; height: 200px;  margin: 0 auto;margin-top: 60px}
+.bottlebox11 h2{width: 995px; height: 45px; border-bottom: 1px solid #2e5dbc; margin-left: 30px;font-size: 18px;font-weight: bold}
+.bottlebox11 ul li{float: left; margin-left: 60px;margin-top: 20px}
+
+/*건강상담FAQ (sub04_02)*/
+#contents4 .FAQ {width: 1156px; height: 55px; border-bottom: 3px solid #1c8136; margin: 0 auto;margin-top: -50px;}
+.FAQbox{width: 1156px; height: 1000px;  margin: 0  auto; margin-top: 80px}
+.FAQbox .FAQtext{width: 288px; height: 65px; background: #fff; border:1px solid #b7b7b7; border-radius: 10px; float: left;}
+.FAQtext ul li{font-size: 24px; text-align: center;padding-top: 15px}
+.FAQtext ul img{margin-top: -50px}
+.FAQbox .FAQtext2{width: 288px; height: 65px; background: #fff; border:1px solid #b7b7b7; border-radius: 10px; float: left; margin-left: 80px}
+.FAQtext2 ul li{font-size: 24px; text-align: center;padding-top: 15px}
+.FAQtext2 ul img{margin-top: -50px}
+.FAQbox .FAQtext3{width: 288px; height: 65px; background: #fff; border:1px solid #b7b7b7; border-radius: 10px; float: left; margin-left: 80px}
+.FAQtext3 ul li{font-size: 24px; text-align: center;padding-top: 15px; margin-left: 30px}
+.FAQtext3 ul img{margin-top: -50px}
+.FAQbox .FAQtext4{width: 288px; height: 65px; background: #fff; border:1px solid #b7b7b7; border-radius: 10px; float: left; ; margin-top: 45px}
+.FAQtext4 ul li{font-size: 24px; text-align: center;padding-top: 15px}
+.FAQtext4 ul img{margin-top: -50px}
+.FAQbox .FAQtext5{width: 288px; height: 65px; background: #fff; border:1px solid #b7b7b7; border-radius: 10px; float: left; ; margin-top: 45px;
+margin-left: 80px}
+.FAQtext5 ul li{font-size: 24px; text-align: center;padding-top: 15px}
+.FAQtext5 ul img{margin-top: -50px}
+.FAQbox .FAQtext6{width: 288px; height: 65px; background: #fff; border:1px solid #b7b7b7; border-radius: 10px; float: left; ; margin-top: 45px;
+margin-left: 80px}
+.FAQtext6 ul li{font-size: 24px; text-align: center;padding-top: 15px}
+.FAQtext6 ul img{margin-top: -50px}
+.FAQbox .FAQtext6{width: 288px; height: 65px; background: #fff; border:1px solid #b7b7b7; border-radius: 10px; float: left; ; margin-top: 45px;
+    margin-left: 80px}
+.FAQtext7 ul li{font-size: 24px; text-align: center;padding-top: 15px; margin-left: 30px}
+.FAQbox .FAQtext7{width: 288px; height: 65px; background: #fff; border:1px solid #b7b7b7; border-radius: 10px; float: left; ; margin-top: 45px;
+ }
+ .FAQtext7 ul img{margin-top: -50px}
+.FAQtext8 ul li{font-size: 24px; text-align: center;padding-top: 15px; margin-left: 20px}
+.FAQbox .FAQtext8{width: 288px; height: 65px; background: #fff; border:1px solid #b7b7b7; border-radius: 10px; float: left; ; margin-top: 45px;
+    margin-left: 80px}
+    .FAQtext8 ul img{margin-top: -50px}
+.FAQtext9 ul li{font-size: 24px; text-align: center;padding-top: 15px}
+.FAQbox .FAQtext9{width: 288px; height: 65px; background: #fff; border:1px solid #b7b7b7; border-radius: 10px; float: left; ; margin-top: 45px;
+    margin-left: 80px}
+    .FAQtext9 ul img{margin-top: -50px}
+.FAQtext10 ul li{font-size: 24px; text-align: center;padding-top: 15px}
+.FAQbox .FAQtext10{width: 288px; height: 65px; background: #fff; border:1px solid #b7b7b7; border-radius: 10px; float: left; ; margin-top: 45px;
+}
+.FAQtext10 ul img{margin-top: -50px}
+.FAQtext11 ul li{font-size: 24px; text-align: center;padding-top: 15px}
+.FAQbox .FAQtext11{width: 288px; height: 65px; background: #fff; border:1px solid #b7b7b7; border-radius: 10px; float: left; ; margin-top: 45px;
+    margin-left: 80px}
+    .FAQtext11 ul img{margin-top: -50px}
+.FAQtext12 ul li{font-size: 24px; text-align: center;padding-top: 15px; margin-left: 25px}
+.FAQbox .FAQtext12{width: 288px; height: 65px; background: #fff; border:1px solid #b7b7b7; border-radius: 10px; float: left; ; margin-top: 45px;
+ margin-left: 80px}
+ .FAQtext12 ul img{margin-top: -50px}
+ .FAQtext13 ul li{font-size: 18px; text-align: center;padding-top: 15px; margin-left: 20px}
+ .FAQbox .FAQtext13{width: 288px; height: 65px; background: #fff; border:1px solid #b7b7b7; border-radius: 10px; float: left; ; margin-top: 45px;
+ }
+ .FAQtext13 ul img{margin-top: -60px}
+
+
+
+
+/*병원 소개 이사장 병원장 인사말(sub05_01)*/
+#contents3 .intro{width: 1170px; height: 1590px; margin: 0 auto;margin-top: -100px}
+.intro h2{width: 820px; height: 55px; border-bottom: 3px solid #2e5dbc; margin: 0 auto }
+.intro2{width: 1156px; height: 760px; }
+.intro2 h3{margin-left: 220px;margin-top: 36px; color: #688ead;}
+.intro2 img{margin-left: 170px;margin-top: 50px; float: left;}  
+.intro2 ul li{margin-left: 40px; float: left; margin-top: 45px;font-size: 20px}
+.intro2 ul li.introtext{margin-left: 450px}
+
+.intro3{width: 1170px; height: 687px; }
+.intro3 h3{margin-left: 220px;margin-top: 36px; color: #688ead;}
+.intro3 img{margin-left: 170px;margin-top: 50px; float: left;}
+.intro3 ul li{margin-left: 40px; float: left; margin-top: 45px;font-size: 20px}
+.intro3 ul li.introtext2{margin-left: 450px;margin-top: -100px}
+.intro3 ul li.introtext3{margin-left: 450px;}
+
+
+/*오시는 길(sub05_02*/
+#contents2 .map h2{position: relative; top: -30px; width: 1156px; height: 55px; margin: 0 auto; border-bottom:3px solid #2e5dbc; }
+.map2 {width: 1156px; height: 1203px;  margin: 0 auto}
+.map2 ul li{margin-top: 65px}
+.map2 ul li.maptext{margin-top: -90px; margin-left: 130px}
+.map2 ul li.maptext2{margin-top: 30px; margin-left: 130px}
+.map2 ul li.img{margin-top: -80px; margin-left: 480px}
+.map2 ul li.maptext3{margin-top: -90px; margin-left: 600px}
+.map2 ul li.maptext4{margin-top: 25px; margin-left: 600px}
+.map2 ul li.maptext5{margin-top: -90px; margin-left: 130px}
+.map2 ul li.maptext6{margin-top: 10px; margin-left: 130px}
+
+/*전화번호 (sub05_03)*/
+#contents3 .tellbox{width: 1053px; height: 405px; background: #1c8136;margin:0 auto}
+.tellbox2 {width: 1070px; height: 985px; top: 65px; margin: 0 auto; position: relative;}
+.tellbox2 .tell_box{width: 504px; height: 453px; background: #4372a2; border-radius: 5px; float: left;}
+.tellbox2 .tell_box img{margin-left: 170px; margin-top: 45px}
+.tellbox2 .tell_box ul li{font-size: 35px; color: #fff; font-weight: normal; margin-left: 180px; margin-top: 55px}
+.tellbox2 .tell_box ul li.telltext{margin-left: 140px; margin-top: -6px}
+.tellbox2 .tell_box2{width: 504px; height: 453px; background: #a8a8a8; border-radius: 5px; float: left;margin-left: 60px;}
+.tellbox2 .tell_box2 img{margin-left: 170px; margin-top: 45px}
+.tellbox2 .tell_box2 ul li{font-size: 35px; color: #fff; font-weight: normal; margin-left: 200px; margin-top: 35px}
+.tellbox2 .tell_box2 ul li.telltext2{margin-left: 140px; margin-top: -5px}
+.tellbox2 .tell_box3{width: 504px; height: 453px; background: #a8a8a8; border-radius: 5px; float: left; margin-top: 75px}
+.tellbox2 .tell_box3 img{margin-left: 185px; margin-top: 65px}
+.tellbox2 .tell_box3 ul li{font-size: 35px; color: #fff; font-weight: normal; margin-left: 95px; margin-top: 55px}
+.tellbox2 .tell_box3 ul li.telltext3{margin-left: 140px; margin-top: -3px}
+.tellbox2 .tell_box4{width: 504px; height: 453px; background: #4372a2; border-radius: 5px; float: left; margin-top: 75px;margin-left: 60px;}
+.tellbox2 .tell_box4 img{margin-left: 150px; margin-top: 60px}
+.tellbox2 .tell_box4 ul li{font-size: 35px; color: #fff; font-weight: normal; margin-left: 180px; margin-top: 5px}
+.tellbox2 .tell_box4 ul li.telltext4{margin-left: 135px}
+
+
+#footer{min-width: 1200px}
+#footer .copyright_box  ul li{width:1115px; height: 50px;margin: 0 auto; color:#ebebeb; font-size: 18px; font-weight: normal; 
+ ; text-align: center; padding: 50px;}

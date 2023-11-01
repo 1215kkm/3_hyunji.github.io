@@ -1,0 +1,611 @@
+
+.gotop {position:fixed;bottom:40px; right:49px; width:59px; height:60px; line-height: 60px; text-align: center; background:#fff; border:1px solid #f89dae; font-size:12px; display: none; border-radius: 100px; z-index: 999; }
+.gotop a{color:#f89dae; }
+.gotop:hover {background:#f89dae; transition:all .5s}
+.gotop:hover a {color:#fff; }
+
+
+#header{width: 100%; height: 970px;background: #d7d3ea; cursor: url(../images/hand.png), auto; min-width: 1400px; }
+#header .hbox {width: 1400px; height: 970px; margin: 0px auto;text-align: center;position: relative; }
+.hbox h2{text-shadow: 5px 5px white;font-size: 80px;padding-top: 120px;color: #695bac;text-align: center; letter-spacing: 30px}
+.hbox .char_box {width: 340px; height: 340px; border-radius: 50%; background: #fff; margin: 60px auto 0 auto; position: relative; overflow: hidden; left: 10px;}
+.hbox .char_box img {margin-top: 45px; margin-left: 10px; position: absolute; left: 0px}
+.hbox .char_box:hover img {animation: char 1s steps(9); }
+@keyframes char {
+    0% {left: 0}
+    100% {left: -2907px}
+}
+
+.hbox ul img{position: absolute; margin-top: -190px; margin-left: 90px}
+
+/*.hbox .icon li.icon2{ position: absolute; left: 280px;}
+/* .hbox .icon li.icon2 a{width: 100px; height: 100px; background: olivedrab; display: block;} */
+/*.hbox .icon li.icon2 span{display: block; margin-top: -170px; color: white; font-weight: bold; font-size: 18px; opacity: 0;margin-left: 60px}
+
+.hbox .icon li.icon3{position: absolute; left: 330px;margin-top: 130px}
+.hbox .icon li.icon3 span{display: block; margin-top: -170px; color: white; font-weight: bold; font-size: 18px; opacity: 0; margin-left: 0px}
+
+.hbox .icon li.icon4{position: absolute; left: 420px;top: 960px; }
+.hbox .icon li.icon4 span{display: block; margin-top: -170px; color: white; font-weight: bold; font-size: 18px; margin-left: 100px;opacity: 0;width: 100px; height: 50px;float: left;}
+.hbox .icon li.icon5{position: absolute; top: 960px; left: 630px; width: 70px; height: 70px; float: left;}
+.hbox .icon li.icon5 span{display: block; margin-top: -170px; color: white; font-weight: bold; font-size: 18px; margin-left: 200px;float: left;opacity: 0; }
+.hbox .icon li.icon6{position: absolute; top: 840px; left: 520px;}
+.hbox .icon li.icon6 span{display: block; ; color: white; font-weight: bold; font-size: 18px; margin-left: 450px;margin-top: -150px;opacity: 0;}
+
+.hbox .icon li.icon7{position: absolute;left:850px;top: 715px; }
+.hbox .icon li.icon7 span{display: block; ; color: white; font-weight: bold; font-size: 18px; margin-left: 170px; margin-top: -180px;position: absolute;opacity: 0;}*/
+
+
+
+
+#section{width: 100%; height: 1100px;background: white;min-width: 1400px; color: #695bac; font-size: 30px; }
+
+
+.secbox .text h3{width: 280px; height: 70px; padding-top: 150px; margin-left: 200px; text-indent: 20px}
+.secbox .text p{font-size: 18px;margin-left: 210px; margin-top: 35px; }
+.secbox .text p:nth-child(3){margin-top: -25px; color: black; padding-left: 110px;font-size: 18px;}
+
+.secbox .text p:nth-child(5){padding-left: 110px; color: black;margin-top: -25px;font-size: 18px;}
+.secbox .text p:nth-child(7){padding-left: 110px; color: black;margin-top: -25px;font-size: 18px;}
+.secbox .text p:nth-child(9){padding-left: 110px; color: black;margin-top: -25px;font-size: 18px;}
+.secbox .text h3:nth-child(10){margin-left: 815px; margin-top: -460px}
+.secbox .text p:nth-child(11){padding-left: 620px; color: black;margin-top:35px;font-size: 18px;}
+.secbox .text p:nth-child(12){padding-left: 620px; color: black;margin-top:35px;font-size: 18px;}
+.secbox .text p:nth-child(13){padding-left: 620px; color: black;margin-top:35px;font-size: 18px;}
+.secbox .text h3:nth-child(14){margin-left: 200px; margin-top: 50px}
+.secbox .text h3:nth-child(22){margin-left: 825px; margin-top: -460px;}
+.secbox .text p:nth-child(15){padding-left: -120px; margin-top:35px;font-size: 18px;}
+.secbox .text p:nth-child(16){margin-top: -25px; color: black; padding-left: 110px;font-size: 18px;}
+.secbox .text p:nth-child(18){margin-top: -25px; color: black; padding-left: 110px;font-size: 18px;}
+.secbox .text p:nth-child(20){margin-top: -25px; color: black; padding-left: 110px;font-size: 18px;}
+.secbox .text p:nth-child(21){margin-top: 35px; color: black; padding-left: 105px;font-size: 18px;}
+
+.secbox{width: 1400px; height: 1000px; margin: 0px auto; position: relative;/*background-image: url(../images/bg.png)*/ ; }
+.skill li {position: relative; }
+
+.skill li svg {position: relative; z-index: 3;width: 300px}
+.skill li .skillimg {position: absolute; top:-34px; left:-93px;}
+.skill li .skillimg li.front{position: absolute;  z-index: 2; top:194px; left: -165px;}
+.skill li .skillimg li.back{position: absolute; z-index: 1; top:200px; left:-160px;}
+
+.skill li:nth-child(2) .skillimg li.front{position: absolute;  z-index: 2; left: -252px;top: 196px}
+.skill li:nth-child(2) .skillimg li.back{position: absolute; z-index: 1;top:200px; margin-left:16px}
+.skill li:nth-child(3) .skillimg li.front{position: absolute;  z-index: 2; top:196px; left:-353px;}
+.skill li:nth-child(3) .skillimg li.back{position: absolute; z-index: 1; top:200px; left:-345px;}
+
+.skill li .skill p{margin-left: 300px; font-size: 25px; border: 10px solid}
+.skill li .skill p.skill2{margin-top: -280px;font-size: 24px;margin-left: 500px}
+.skill li .skill p.skill3{margin-top: -280px;font-size: 24px;margin-left: 950px}
+.skill li .loading{margin-left: 50px}
+.skill li .loading2{margin-left: -130px}
+.skill li .loading3{margin-left: -100px}
+
+
+
+#section2{width: 100%; height: 1800px;background:#d7d3ea;min-width: 1400px }
+.secbox2 {width: 1400px; height: 1800px;  margin: 0 auto}
+.secbox2 h2{padding-top: 100px; margin-left: 80px; width: 300px; height: 100px;border-bottom: 2px solid #695bac; color: #695bac; font-size: 40px}
+.secbox2 p{margin-top: 30px; width: 300px; height: 100px; text-align: center; margin-left: 75px;font-size: 18px; color: white }
+.secbox2 .secimg{width: 1400px; height: 1345px; position: relative; }
+
+/*모양만드는 소스*/
+.secbox2 .secimg .port_wrap {width:1400px; margin:0 auto; position: relative; padding: 0;  }
+.secbox2 .secimg .port_wrap > div {width: 330px; height:330px; position: absolute; /*transform: scale(1) rotateX(55deg) rotateZ(-45deg);*/ box-shadow: -50px 50px 70px rgba(0,0,0,0.2); transition: .3s}
+.secbox2 .secimg .port_wrap > div .imgbox {width: 100%; height: 100%; overflow: hidden}
+.secbox2 .secimg .port_wrap > div .kan1 {display: block; position: absolute; width: 10px; height:100%; background:#bbb; transform:skewY(-45deg); transform-origin: right; top:-1px; left:-10px}
+.secbox2 .secimg .port_wrap > div .kan2 {display: block; position: absolute; width: 100%; height:10px; background:#999; transform:skewX(-45deg); transform-origin: right; right:5px; bottom:-10px}
+.secbox2 .secimg .port_wrap > div img {width: 100%; cursor: pointer}
+
+
+.secbox2 .secimg .port_wrap > div .bubble {padding: 10px 20px; background: #f66dab; position: absolute; color:#fff; font-weight: bold; font-size: 18px; border-radius: 15px; transform: scale(1) rotateX(0deg) rotateZ(0deg) rotateY(0deg); opacity: 0; top: 150px;left: 0px; transition: 0.3s; text-align: center; width: 128px; height:90px; line-height: 40px; font-weight: bold; }
+.secbox2 .secimg .port_wrap > div:hover .bubble {opacity: 1; top: -100px; left: 50px; position: absolute;text-align: center; }
+.secbox2 .secimg .port_wrap > div:hover .bubble span {display: block; background: #f66dab; width:8px; height:8px; position: absolute; transform: rotate(45deg) translate(-50%,0); top: 100%; left: 50%; }
+
+
+.secbox2 .secimg .port_wrap > div .bubble2 {padding: 10px 20px; background: #f66dab; position: absolute; color:#fff; font-weight: bold; font-size: 18px; border-radius: 15px; transform: scale(1) rotateX(0deg) rotateZ(0deg) rotateY(0deg); opacity: 0; top: 150px;left: 0px; transition: 0.3s; text-align: center; width: 128px; height:90px; line-height: 40px; font-weight: bold}
+.secbox2 .secimg .port_wrap > div:hover .bubble2 {opacity: 1; top: -100px; left: 50px; position: absolute;text-align: center}
+.secbox2 .secimg .port_wrap > div:hover .bubble2 span {display: block; background: #f66dab; width:8px; height:8px; position: absolute; transform: rotate(45deg) translate(-50%,0); top: 100%; left: 50%; }
+
+
+.secbox2 .secimg .port_wrap > div .bubble3 {padding: 10px 20px; background: #ee3d4c; position: absolute; color:#fff; font-weight: bold; font-size: 18px; border-radius: 15px; transform: scale(1) rotateX(0deg) rotateZ(0deg) rotateY(0deg); opacity: 0; top: 150px;left: 0px; transition: 0.3s; text-align: center; width: 128px; height:90px; line-height: 40px; font-weight: bold}
+.secbox2 .secimg .port_wrap > div:hover .bubble3 {opacity: 1; top: -100px; left: 50px; position: absolute;text-align: center}
+.secbox2 .secimg .port_wrap > div:hover .bubble3 span {display: block; background: #ee3d4c; width:8px; height:8px; position: absolute; transform: rotate(45deg) translate(-50%,0); top: 100%; left: 50%; }
+
+
+.secbox2 .secimg .port_wrap > div .bubble4 {padding: 10px 20px; background: #ee3d4c; position: absolute; color:#fff; font-weight: bold; font-size: 18px; border-radius: 15px; transform: scale(1) rotateX(0deg) rotateZ(0deg) rotateY(0deg); opacity: 0; top: 150px;left: 0px; transition: 0.3s; text-align: center; width: 128px; height:90px; line-height: 40px; font-weight: bold}
+.secbox2 .secimg .port_wrap > div:hover .bubble4 {opacity: 1; top: -100px; left: 50px; position: absolute;text-align: center}
+.secbox2 .secimg .port_wrap > div:hover .bubble4 span {display: block; background: #ee3d4c; width:8px; height:8px; position: absolute; transform: rotate(45deg) translate(-50%,0); top: 100%; left: 50%; }
+
+
+.secbox2 .secimg .port_wrap > div .bubble5 {padding: 10px 20px; background: #ffda2a; position: absolute;  font-weight: bold; font-size: 18px; border-radius: 15px; transform: scale(1) rotateX(0deg) rotateZ(0deg) rotateY(0deg); opacity: 0; top: 150px;left: 0px; transition: 0.3s; text-align: center; width: 128px; height:90px; line-height: 40px; font-weight: bold}
+.secbox2 .secimg .port_wrap > div:hover .bubble5 {opacity: 1; top: -100px; left: 50px; position: absolute;text-align: center}
+.secbox2 .secimg .port_wrap > div:hover .bubble5 span {display: block; background: #ffda2a; width:8px; height:8px; position: absolute; transform: rotate(45deg) translate(-50%,0); top: 100%; left: 50%; }
+
+
+.secbox2 .secimg .port_wrap > div .bubble6 {padding: 10px 20px; background: #ffda2a; position: absolute;  font-weight: bold; font-size: 18px; border-radius: 15px; transform: scale(1) rotateX(0deg) rotateZ(0deg) rotateY(0deg); opacity: 0; top: 150px;left: 0px; transition: 0.3s; text-align: center; width: 128px; height:90px; line-height: 40px; font-weight: bold}
+.secbox2 .secimg .port_wrap > div:hover .bubble6 {opacity: 1; top: -100px; left: 50px; position: absolute;text-align: center}
+.secbox2 .secimg .port_wrap > div:hover .bubble6 span {display: block; background: #ffda2a; width:8px; height:8px; position: absolute; transform: rotate(45deg) translate(-50%,0); top: 100%; left: 50%; }
+
+
+.secbox2 .secimg .port_wrap > div .bubble7 {padding: 10px 20px; background: #037533; position: absolute;  font-weight: bold; color:#fff;font-size: 18px; border-radius: 15px; transform: scale(1) rotateX(0deg) rotateZ(0deg) rotateY(0deg); opacity: 0; top: 150px;left: 0px; transition: 0.3s; text-align: center; width: 128px; height:90px; line-height: 40px; font-weight: bold}
+.secbox2 .secimg .port_wrap > div:hover .bubble7 {opacity: 1; top: -100px; left: 50px; position: absolute;text-align: center}
+.secbox2 .secimg .port_wrap > div:hover .bubble7 span {display: block; background: #037533; width:8px; height:8px; position: absolute; transform: rotate(45deg) translate(-50%,0); top: 100%; left: 50%; }
+
+
+.secbox2 .secimg .port_wrap > div .bubble8 {padding: 10px 20px; background: #38b451; position: absolute;  font-weight: bold; color:#fff;font-size: 18px; border-radius: 15px; transform: scale(1) rotateX(0deg) rotateZ(0deg) rotateY(0deg); opacity: 0; top: 150px;left: 0px; transition: 0.3s; text-align: center; width: 128px; height:90px; line-height: 40px; font-weight: bold}
+.secbox2 .secimg .port_wrap > div:hover .bubble8 {opacity: 1; top: -100px; left: 50px; position: absolute;text-align: center}
+.secbox2 .secimg .port_wrap > div:hover .bubble8 span {display: block; background: #38b451; width:8px; height:8px; position: absolute; transform: rotate(45deg) translate(-50%,0); top: 100%; left: 50%; }
+
+.secbox2 .secimg .port_wrap > div .bubble9 {padding: 10px 20px; background: #464545; position: absolute;  font-weight: bold; color:#fff;font-size: 18px; border-radius: 15px; transform: scale(1) rotateX(0deg) rotateZ(0deg) rotateY(0deg); opacity: 0; top: 150px;left: 0px; transition: 0.3s; text-align: center; width: 128px; height:90px; line-height: 40px; font-weight: bold}
+.secbox2 .secimg .port_wrap > div:hover .bubble9 {opacity: 1; top: -100px; left: 50px; position: absolute;text-align: center}
+.secbox2 .secimg .port_wrap > div:hover .bubble9 span {display: block; background: #464545; width:8px; height:8px; position: absolute; transform: rotate(45deg) translate(-50%,0); top: 100%; left: 50%; }
+
+.secbox2 .secimg .port_wrap > div .bubble10 {padding: 10px 20px; background: #464545; position: absolute;  font-weight: bold; color:#fff;font-size: 18px; border-radius: 15px; transform: scale(1) rotateX(0deg) rotateZ(0deg) rotateY(0deg); opacity: 0; top: 150px;left: 0px; transition: 0.3s; text-align: center; width: 128px; height:90px; line-height: 40px; font-weight: bold}
+.secbox2 .secimg .port_wrap > div:hover .bubble10 {opacity: 1; top: -100px; left: 50px; position: absolute;text-align: center}
+.secbox2 .secimg .port_wrap > div:hover .bubble10 span {display: block; background: #464545; width:8px; height:8px; position: absolute; transform: rotate(45deg) translate(-50%,0); top: 100%; left: 50%; }
+
+.secbox2 .secimg .port_wrap > div .bubble11 {padding: 10px 20px; background: #5a2613; position: absolute;  font-weight: bold; color:#fff;font-size: 18px; border-radius: 15px; transform: scale(1) rotateX(0deg) rotateZ(0deg) rotateY(0deg); opacity: 0; top: 150px;left: 0px; transition: 0.3s; text-align: center; width: 128px; height:90px; line-height: 40px; font-weight: bold}
+.secbox2 .secimg .port_wrap > div:hover .bubble11 {opacity: 1; top: -100px; left: 50px; position: absolute;text-align: center}
+.secbox2 .secimg .port_wrap > div:hover .bubble11 span {display: block; background: #5a2613; width:8px; height:8px; position: absolute; transform: rotate(45deg) translate(-50%,0); top: 100%; left: 50%; }
+
+.secbox2 .secimg .port_wrap > div .bubble12 {padding: 10px 20px; background: #e1b180; position: absolute;  font-weight: bold; color:#fff;font-size: 16px; border-radius: 15px; transform: scale(1) rotateX(0deg) rotateZ(0deg) rotateY(0deg); opacity: 0; top: 150px;left: 0px; transition: 0.3s; text-align: center; width: 128px; height:90px; line-height: 40px; font-weight: bold}
+.secbox2 .secimg .port_wrap > div:hover .bubble12 {opacity: 1; top: -100px; left: 50px; position: absolute;text-align: center}
+.secbox2 .secimg .port_wrap > div:hover .bubble12 span {display: block; background: #e1b180; width:8px; height:8px; position: absolute; transform: rotate(45deg) translate(-50%,0); top: 100%; left: 50%; }
+
+.secbox2 .secimg .port_wrap > div .bubble13 {padding: 10px 20px; background: #e1b180; position: absolute;  font-weight: bold; color:#fff;font-size: 16px; border-radius: 15px; transform: scale(1) rotateX(0deg) rotateZ(0deg) rotateY(0deg); opacity: 0; top: 150px;left: 0px; transition: 0.3s; text-align: center; width: 128px; height:90px; line-height: 40px; font-weight: bold}
+.secbox2 .secimg .port_wrap > div:hover .bubble13 {opacity: 1; top: -100px; left: 50px; position: absolute;text-align: center}
+.secbox2 .secimg .port_wrap > div:hover .bubble13 span {display: block; background: #e1b180; width:8px; height:8px; position: absolute; transform: rotate(45deg) translate(-50%,0); top: 100%; left: 50%; }
+
+
+/*위치잡기 소스*/
+/*
+.secbox2 .secimg .port_wrap > div.action {width: 1000px; position: absolute; left: 50%; transform: scale(0.3) 
+    rotateX(55deg) rotateZ(-45deg); box-shadow: -50px 100px 300px rgba(0,0,0,0.5); transition: 1s}
+*/
+.secbox2 .secimg .port_wrap > div {opacity: 0;}
+.secbox2.action .secimg .port_wrap > div.port1 {left: -420px; top: 500px; opacity: 0 ; animation: port1 .3s forwards; }
+@keyframes port1 {
+    0% {left: -420px; top: 500px; opacity: 0 }
+    100% {left: 325px; top: 35px; opacity: 1 }
+}
+.secbox2.action .secimg .port_wrap > div.port2 {left: -420px; top: 500px; opacity: 0 ;  animation: port2 .3s forwards; animation-delay:0.2s}
+@keyframes port2 {
+    0% {left: -420px; top: 500px; opacity: 0 }
+    100% {left: 45px; top: 200px; opacity: 1 }
+}
+.secbox2.action .secimg .port_wrap > div.port3 {left: -420px; top: 850px; opacity: 0 ;  animation: port3 .3s forwards; animation-delay:0.6s; }
+@keyframes port3 {
+    0% {left: -420px; top: 850px; opacity: 0 }
+    100% {left: 45px; top: 545px; opacity: 1 }
+}
+.secbox2.action .secimg .port_wrap > div.port4 {left: -420px; top: 850px; opacity: 0 ;  animation: port4 .3s forwards; animation-delay:0.5s}
+@keyframes port4 {
+    0% {left: -420px; top: 850px; opacity: 0 }
+    100% {left: 340px; top: 380px; opacity: 1 }
+}
+.secbox2.action .secimg .port_wrap > div.port5 {left: -420px; top: 850px; opacity: 0 ;  animation: port5 .3s forwards; animation-delay:0.4s;}
+@keyframes port5 {
+    0% {left: -420px; top: 850px; opacity: 0 }
+    100% {left: 630px; top: 210px; opacity: 1 }
+}
+/*2번째줄 맨끝*/
+.secbox2.action .secimg .port_wrap > div.port6 {left: -420px; top: 850px; opacity: 0 ;  animation: port6 .3s forwards; animation-delay:0.3s}
+@keyframes port6 {
+    0% {left: -420px; top: 850px; opacity: 0 }
+    100% {left: 920px; top: 35px; opacity: 1 }
+}
+.secbox2.action .secimg .port_wrap > div.port7 {left: -420px; top: 1300px; opacity: 0 ;  animation: port7 .3s forwards; animation-delay:0.7s;}
+@keyframes port7 {
+    0% {left: -420px; top: 1300px; opacity: 0 }
+    100% {left: 930px; top: 380px; opacity: 1 }
+}
+.secbox2.action .secimg .port_wrap > div.port8 {left: -420px; top: 1300px; opacity: 0 ;  animation: port8 .3s forwards; animation-delay:0.8s;}
+@keyframes port8 {
+    0% {left: -420px; top: 1300px; opacity: 0 }
+    100% {left: 630px; top: 555px; opacity: 1 }
+}
+.secbox2.action .secimg .port_wrap > div.port9 {left: -420px; top: 1300px; opacity: 0 ;  animation: port9 .3s forwards; animation-delay:0.8s;}
+@keyframes port9 {
+    0% {left: -420px; top: 1300px; opacity: 0 }
+    100% {left: 45px; top: 890px; opacity: 1 }
+}
+.secbox2.action .secimg .port_wrap > div.port10 {left: -420px; top: 1300px; opacity: 0 ;  animation: port10 .3s forwards; animation-delay:0.8s;}
+@keyframes port10 {
+    0% {left: -420px; top: 1300px; opacity: 0 }
+    100% {left: 345px; top: 730px; opacity: 1 }
+}
+.secbox2.action .secimg .port_wrap > div.port11 {left: -420px; top: 1300px; opacity: 0 ;  animation: port11 .3s forwards; animation-delay:0.8s;}
+@keyframes port11 {
+    0% {left: -420px; top: 1300px; opacity: 0 }
+    100% {left: 630px; top: 900px; opacity: 1 }
+}
+
+.secbox2.action .secimg .port_wrap > div.port12 {left: -420px; top: 1300px; opacity: 0 ;  animation: port12 .3s forwards; animation-delay:0.7s;}
+@keyframes port12 {
+    0% {left: -420px; top: 1300px; opacity: 0 }
+    100% {left: 930px; top: 730px; opacity: 1 }
+}
+
+
+.port_box {width: 100%; height: 100%; background: rgba(0,0,0,0.65); position: fixed; top: 0; left: 0; display: none } /*modal*/
+.secbox2 .secimg .port_wrap > div.action {width: 1000px; height: 700px; transform: scale(1) rotateX(0deg) rotateZ(0deg); position: absolute; left:100px; top:0px; z-index: 77;}
+.secbox2 .secimg .port_wrap > div.action .kan1 {display: none}
+.secbox2 .secimg .port_wrap > div.action .kan2 {display: none}
+.secbox2 .secimg .port_wrap > div.action .imgbox {width: 100%; height: 100%; overflow-y: auto}
+
+
+.secbox2 .secimg .port_wrap > div .comment { position: absolute;left: 1010px; top:-0px; width: 400px; height: 650px; background-color:white ; display: none;color: black; font-size: 20px; font-weight: bold;padding-top: 50px}
+.secbox2 .secimg .port_wrap > div .comment p{ margin-left: 40px; color: black; margin-top: -10px}
+.secbox2 .secimg .port_wrap > div .comment p.jt{ margin-left: 40px; color: black; margin-top: -10px; font-weight: normal; font-size: 17px; width: 300px; height: 130px; border-bottom: 1px solid}
+.secbox2 .secimg .port_wrap > div .comment p.Color{padding-top: 50px; margin-left: -80px}
+.secbox2 .secimg .port_wrap > div .comment p.cbox{width: 80px; height: 80px; background: black; margin-top: -40px}
+.secbox2 .secimg .port_wrap > div .comment p.cbox2{width: 80px; height: 80px; background: #d7d7d7;margin-left: 140px; margin-top: -80px }
+.secbox2 .secimg .port_wrap > div .comment p.colorbox{width: 80px; height: 80px; background: #efece8;margin-left: 240px; margin-top: -80px }
+.secbox2 .secimg .port_wrap > div .comment p.textF{margin-top: 50px; margin-left: -80px}
+.secbox2 .secimg .port_wrap > div .comment p.textF2{margin-top: -50px; margin-left: -30px;font-size: 20px}
+
+.secbox2 .secimg .port_wrap > div .comment { position: absolute;left: 1010px; top:-0px; width: 400px; height: 650px; background-color:white ; display: none;color: black; font-size: 20px; font-weight: bold;padding-top: 50px}
+.secbox2 .secimg .port_wrap > div .comment p{ margin-left: 40px; color: black; margin-top: -10px}
+.secbox2 .secimg .port_wrap > div .comment p.jt{ margin-left: 40px; color: black; margin-top: -10px; font-weight: normal; font-size: 17px; width: 300px; height: 130px; border-bottom: 1px solid}
+.secbox2 .secimg .port_wrap > div .comment p.Color{padding-top: 50px; margin-left: -80px}
+.secbox2 .secimg .port_wrap > div .comment p.blue{width: 80px; height: 80px; background: #33b8e1; margin-top: -40px}
+.secbox2 .secimg .port_wrap > div .comment p.red{width: 80px; height: 80px; background: #e6222c;margin-left: 140px; margin-top: -80px }
+.secbox2 .secimg .port_wrap > div .comment p.textF{margin-top: 50px; margin-left: -80px}
+.secbox2 .secimg .port_wrap > div .comment p.textF2{margin-top: -50px; margin-left: -40px;font-size: 20px}
+.secbox2 .secimg .port_wrap > div .comment p.textF3{margin-top: -50px; margin-left: -30px;font-size: 20px}
+
+.secbox2 .secimg .port_wrap > div .comment p.textF4{margin-top: -50px; margin-left: -30px;font-size: 20px}
+.secbox2 .secimg .port_wrap > div .comment p.textF5{margin-top: -50px; margin-left: -40px;font-size: 20px}
+.secbox2 .secimg .port_wrap > div .comment p.textF6{margin-top: -50px; margin-left: -40px;font-size: 20px}
+.secbox2 .secimg .port_wrap > div .comment p.textF8{margin-top: -50px; margin-left: -30px;font-size: 20px}
+.secbox2 .secimg .port_wrap > div .comment p.textF7{margin-top: -50px; margin-left: -20px;font-size: 20px}
+.secbox2 .secimg .port_wrap > div .comment p.textF9{margin-top: -50px; margin-left: -40px;font-size: 20px}
+.secbox2 .secimg .port_wrap > div .comment p.textF10{margin-top: -50px; margin-left: -20px;font-size: 20px}
+.secbox2 .secimg .port_wrap > div .comment p.textF11{margin-top: -50px; margin-left: -40px;font-size: 20px}
+
+
+
+
+.secbox2 .secimg .port_wrap > div .comment p.black{width: 80px; height: 80px; background: black; margin-top: -40px}
+.secbox2 .secimg .port_wrap > div .comment p.sky{width: 80px; height: 80px; background: #8fd4f5; margin-top: -40px}
+.secbox2 .secimg .port_wrap > div .comment p.yellow{width: 80px; height: 80px; background: #e8ca3a; margin-top: -80px; margin-left: 150px}
+.secbox2 .secimg .port_wrap > div .comment p.black2{width: 80px; height: 80px; background: black; margin-top: -80px; margin-left: 260px}
+.secbox2 .secimg .port_wrap > div .comment p.yellow2{width: 80px; height: 80px; background: #e8ca3a; margin-top: -40px; margin-left: 40px}
+.secbox2 .secimg .port_wrap > div .comment p.black3{width: 80px; height: 80px; background: black; margin-top: -80px; margin-left: 150px}
+.secbox2 .secimg .port_wrap > div .comment p.green{width: 80px; height: 80px; background: #3ab54a; margin-top: -50px; margin-left: 40px; }
+.secbox2 .secimg .port_wrap > div .comment p.gray2{width: 80px; height: 80px; background: #c4c4c3; margin-top: -80px; margin-left: 150px; }
+.secbox2 .secimg .port_wrap > div .comment p.star{width: 80px; height: 80px; background: #00682d; margin-top: -40px; margin-left: 150px; }
+.secbox2 .secimg .port_wrap > div .comment p.black4{width: 80px; height: 80px; background: black; margin-top: -80px; margin-left: 40px}
+.secbox2 .secimg .port_wrap > div .comment p.pink{width: 80px; height: 80px; background: #f66dab; margin-top: -60px; margin-left: 40px}
+.secbox2 .secimg .port_wrap > div .comment p.gclor{width: 80px; height: 80px; background: #464545; margin-top: -60px; margin-left: 40px}
+.secbox2 .secimg .port_wrap > div .comment p.gclor2{width: 80px; height: 80px; background: #f1f2f1; margin-top: -80px; margin-left: 160px}
+.secbox2 .secimg .port_wrap > div .comment p.brown{width: 80px; height: 80px; background: #5c2710; margin-top: -50px; margin-left: 40px; }
+.secbox2 .secimg .port_wrap > div .comment p.ivory{width: 80px; height: 80px; background: #e4ded6; margin-top: -80px; margin-left: 150px; }
+.secbox2 .secimg .port_wrap > div .comment p.pinkc{width: 80px; height: 80px; background: #d8c9c6; margin-top: -60px; margin-left: 40px;}
+.secbox2 .secimg .port_wrap > div .comment p.gclor3{width: 80px; height: 80px; background: #ffffff; margin-top: -80px; margin-left: 160px; border: 1px solid}
+.secbox2 .secimg .port_wrap > div .comment p.gclor4{width: 80px; height: 80px; background: #ffffff; margin-top: -50px; margin-left: 40px; border: 1px solid}
+
+
+#section3{width: 100%; height: 1215px; background: white;min-width: 1400px}
+.mobile {width: 1400px; height: 1215px;  margin: 0 auto}
+.mobile h2{padding-top: 100px; margin-left: 80px; width: 300px; height: 100px;border-bottom: 2px solid #695bac; color: #695bac; font-size: 40px}
+.mobile p.mt{font-size: 18px; font-weight: bold; position: relative; top: -800px; left: 30px;transition: 1s; transition: 0.5s; }
+.mobile p.mt:hover{top: -820px; transition: 0.5s; cursor: pointer}
+.mobile p{margin-top: 30px; width: 300px; height: 100px; text-align: center; margin-left: 75px;font-size: 18px; }
+/* .mobile img{margin-top: 80px;margin-left: 70px; cursor: pointer;} */
+.mobile .phone{width: 357px; height: 700px; background: url('../images/mobile.png') no-repeat; position: relative; top: 30px; left: 40px;}
+.mobile .phone > .phonebox{width: 300px; height: 525px; position: absolute;  z-index: 1;top: 91px; left: 30px;overflow: hidden; }
+.mobile .phone > .phonebox img{ width: 100%; position: absolute;top: -40px;left: -30px;}
+.mobile .phone > .phonebox img:hover{animation: slide 2s linear;} 
+@keyframes slide
+{
+  0%{top: -40px;}
+  50%{top: -200px;}
+  100%{top: -40px;}
+}
+
+.mobile .phone2{width: 357px; height: 700px; background: url('../images/mobile.png') no-repeat; position: relative; top: 30px; left: 90px;}
+.mobile .phone2 > .phonebox2{width: 300px; height: 516px; position: absolute;  z-index: 1;top: 91px; left: 25px;overflow: hidden; }
+.mobile .phone2 > .phonebox2 img{ width: 100%; position: absolute;top: -40px;left: -73px;}
+.mobile .phone2 > .phonebox2 img:hover{animation: slide2 4s linear;} 
+@keyframes slide2
+{
+  0%{top: -40px;}
+  25%{top: -240px;}
+  50%{top: -380px;}
+  75%{top: -240px;}
+  100%{top: -40px;}
+}
+
+
+.mobile .phone3{width: 357px; height: 700px; background: url('../images/mobile.png') no-repeat; position: relative; top: 30px; left: 140px;}
+.mobile .phone3 > .phonebox3{width: 300px; height: 525px; position: absolute;  z-index: 1;top: 91px; left: 25px;overflow: hidden; }
+.mobile .phone3 > .phonebox3 img{ width: 100%; position: absolute;top: -40px;left: -125px;}
+.mobile .phone3 > .phonebox3 img:hover{animation: slide 2s linear;} 
+@keyframes slide3
+{
+  0%{top: -40px;}
+  50%{top: -200px;}
+  100%{top: -40px;}
+}
+
+
+.mobile li.m{margin-top: -920px; margin-left: 460px}
+.mobile li.m2{margin-top: -910px; margin-left: 900px}
+.mobile ul p{margin-left: 550px; position: relative; top: -780px; font-weight: bold;transition: 0.5s;}
+.mobile ul p:hover{top: -790px; transition: 0.5s; cursor: pointer}
+.mobile ul p.ho{margin-left: 1000px; position: relative; top: -800px; font-weight: bold;transition: 0.5s}
+.mobile ul p.ho:hover{top: -810px; transition: 0.5s; cursor: pointer}
+.mj{width: 368px; height: 746px;  margin-left: 30px; margin-top: 50px; float: left; position: relative;}
+.mj img{margin-left: 30px; margin-top: 40px}
+.mj{width: 368px; height: 750px;  margin-left: 20px; margin-top: 50px; }
+.mj p{position: absolute; top: -50px;margin-left: 110px; width: 230px; height: 30px;transition: 0.2s;}
+.mobile p.mouse{font-weight: bold}
+.shop{width: 368px; height: 746px;  margin-left: 80px; margin-top: 50px; float: left;position: relative; }
+.shop img{margin-left: 80px; margin-top: 40px}
+.shop{width: 368px; height: 750px;  margin-left: 30px; margin-top: 50px; }
+.shop p{position: absolute;top: -50px; margin-left: 120px;transition: 0.2s;}
+.phone:hover ~ p{position: absolute; top: -50px; margin-left: 110px; color: #edbdb3;  font-weight: bold;font-size: 22px}
+.phone2:hover ~ p{position: absolute; top: -50px; margin-left: 120px; color: #fbad4a;  font-weight: bold;font-size: 22px}
+.phone3:hover ~ p{position: absolute; top: -50px; margin-left: 170px; color: #2c7c58;  font-weight: bold;font-size: 22px}
+
+.hp{width: 368px; height: 746px;  margin-left: 80px; margin-top: 50px; float: left;position: relative }
+.hp img{margin-left: 130px; margin-top: 30px}
+.hp{width: 368px; height: 750px;  margin-left: 30px; margin-top: 50px; }
+.hp p{position: absolute;;top: -50px; margin-left: 170px;height: 1000px;transition: 0.2s; }
+.hp p:hover{position: absolute;top: -50px; margin-left: 170px; color: #2c7c58; transition: 0.2s;; font-weight: bold;font-size: 22px}
+
+
+
+
+
+#section4{width: 100%; height: 1413px; background: #d7d3ea;min-width: 1400px; position: relative;}
+.res{width: 1400px; height: 1413px; margin: 0 auto}
+.res h2{padding-top: 100px; margin-left: 80px; width: 450px; height: 80px;border-bottom: 2px solid #695bac; color: #695bac; font-size: 33px}
+.res p{margin-top: 30px; width: 300px; height: 100px; text-align: center; margin-left: 160px;font-size: 15px;  }
+.rbox img{margin-top: 80px}
+.rbox2 {width: 370px; height: 737px; top: 300px; right: 100px; position: absolute; z-index: 777; border-radius: 60px; box-shadow: 30px 50px 50px rgba(0,0,0,0.3)}
+
+
+
+
+#section5{width: 100%; height: 1150px; background: white;min-width: 1400px}
+.web{width: 1400px; height: 1150px; margin: 0 auto;}
+.web h2{padding-top: 100px; margin-left: 80px; width: 200px; height: 80px;border-bottom: 2px solid #695bac; color: #695bac; font-size: 40px}
+
+
+.notebook {width:978px; height: 574px;  position: relative; margin:200px auto 0 auto; perspective: 800px}
+.notebook .notebook1 {width: 978px; height: 43px; position: absolute; bottom: 0; }
+.notebook .notebook2 {width: 978px; height: 530px; position: absolute; bottom:43px; transform: rotateX(90deg); transform-origin: bottom; }
+.notebook .notebook2.action {animation: monitor 1s forwards}
+
+/*뒤에서 펼쳐질때*/
+@keyframes monitor {
+    0% {transform: rotateX(90deg); }
+    100% {transform: rotateX(0deg); }
+}
+/* 앞에서부터 펼쳐질때
+perspective: 2700px;
+@keyframes monitor {
+    0% {transform: rotateX(-85deg); }
+    100% {transform: rotateX(0deg); }
+}
+*/
+
+.notebook .notebook2 img {position: absolute;}
+
+
+#section6{width: 100%; height: 2000px;background:#d7d3ea; min-width: 1400px}
+.banner{width: 1400px; height: 2000px; margin: 0 auto; }
+.banner h2{padding-top: 100px; margin-left: 80px; width: 370px; height: 80px;border-bottom: 2px solid #695bac; color: #695bac; font-size: 40px}
+.banner ul li:nth-child(1){margin-top: 80px;border: 1px solid #e6e5e8; width: 680px; height: 120px;} 
+.banner ul li:nth-child(2){margin-top: -124px; margin-left:720px;border: 1px solid #e6e5e8; width: 680px; height: 120px;}
+.banner ul li:nth-child(3){margin-top: 30px;border: 1px solid #e6e5e8; width: 680px; height: 120px;}
+.banner ul li:nth-child(4){margin-top: -124px; margin-left: 720px;border: 1px solid #e6e5e8; width: 680px; height: 120px;}
+.banner ul li:nth-child(5){margin-top: 30px; border: 1px solid #e6e5e8; width: 680px; height: 120px;}
+.banner ul li:nth-child(6){margin-top: -124px; margin-left: 720px;border: 1px solid #e6e5e8; width: 680px; height: 120px;}
+.banner ul li:nth-child(7){margin-top: 30px;border: 1px solid #e6e5e8; width: 680px; height: 120px;}
+.banner ul li:nth-child(8){margin-top: -124px; margin-left: 720px;border: 1px solid #e6e5e8; width: 680px; height: 120px;}
+.banner ul li:nth-child(9){margin-top: 90px; float: left;margin-left: 90px;border: 1px solid #e6e5e8; width: 355px; height: 400px;}
+.banner ul li:nth-child(10){margin-top: 90px; float: left; margin-left: 80px;border: 1px solid #e6e5e8; width: 355px; height: 400px;}
+.banner ul li:nth-child(11){margin-top: 90px; float: left; margin-left: 80px;border: 1px solid #e6e5e8; width: 355px; height: 400px;}
+.banner ul li:nth-child(12){margin-top: 90px; float: left;margin-left: 90px ;border: 1px solid #e6e5e8; width: 355px; height: 400px;}
+.banner ul li:nth-child(13){margin-top: 90px; float: left; margin-left: 80px;border: 1px solid #e6e5e8; width: 355px; height: 400px;}
+.banner ul li:nth-child(14){margin-top: 90px; float: left; margin-left: 80px;border: 1px solid #e6e5e8; width: 355px; height: 400px;}
+
+
+#section7 {width: 100%;  background: white;height: 1300px;}
+.popup{width: 1400px; height: 1300px;  margin: 0 auto;}
+.popup h2{padding-top: 100px; margin-left: 80px; width: 150px; height: 80px;border-bottom: 2px solid #695bac; color: #695bac; font-size: 33px}
+.popup p{margin-top: 30px; width: 300px; height: 100px; text-align: center; margin-left: 5px;font-size: 18px;  }
+
+.popup li{float: left; margin-left: 100px; margin-top: 50px}
+
+
+
+#footer{width: 100%; height: 600px; background:white; min-width: 1400px;}
+.fbox{width: 1400px;height: 600px; margin: 0 auto; }
+.fbox p{font-size: 20px; text-align: center; ;  position: relative; top: 500px; }
+#footer img{margin-left: 450px; margin-top: -20px}
+
+
+
+/*반응형*/
+.box {
+    width: 1360px; 
+    height: 852px;
+  margin: 4rem;
+  
+  margin: 0 auto;
+}
+.box img {
+  display: block;
+  max-width: 100%;
+}
+
+.effect {
+  cursor: pointer;
+  transition: box-shadow .3s ease-out;
+}
+.effect:hover {
+  box-shadow:
+    0 2px 2px rgba(34,34,34,0.2),
+    0 4px 4px rgba(34,34,34,0.2),
+    0 8px 8px rgba(34,34,34,0.2),
+    0 16px 16px rgba(34,34,34,0.2),
+    0 32px 32px rgba(34,34,34,0.2),
+    0 64px 64px rgba(34,34,34,0.2);
+}
+
+
+
+/*포토샵,일러스트,html5 스킬*/
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+
+
+
+.skill {width:100%; height:500px; background:url('../images/photography02.jpg')top center; background-attachment: fixed; position:relative; margin-top: -20px; margin-left: 450px; }
+.skill ul {width: 800px; height:250px ;  margin:0 auto; padding-top: 140px;margin-left: 200px }
+.skill li {width:150px; height:250px;  float:left; text-align: center; position: relative; margin-top: -100px; margin-left: 100px;}
+.skill > ul > li {border: 4px}
+.skill li p {  font-size:15px;position: absolute; margin-left: 80px; font-weight: normal; color: black; margin-top: -25px  }
+.skill li p.AI{margin-left: 10px; margin-top: -25px; color: black; font-weight: normal}
+.skill li p.html{color: black; margin-left: -120px}
+.skill li .grade {position: absolute; top: 30px; left: 130px; transform: translate(-50%,-50%);  font-size: 15px; color: black}
+.skill li .grade2 {position: absolute; top: 30px; left: 50px; transform: translate(-50%,-50%); font-size: 15px; color: black }
+.skill li .grade3 {position: absolute; top: 30px; left: -70px; transform: translate(-50%,-50%); font-size: 15px; color: black }
+
+
+
+
+.water-fill {
+  animation: wave 0.7s infinite linear, 
+             fill-up 8s ease-out forwards; position: absolute; 
+}
+
+@keyframes wave {
+  0% { x: -400px; bottom: 0}
+  100% { x: 0; }
+}
+
+
+@keyframes fill-up {
+  0% {
+      y: 130px;
+  }
+  100% {
+      y: -10px
+  }
+}
+
+
+.water-fill2 {
+  animation: wave2 0.7s infinite linear, 
+             fill-up2 8s ease-out forwards; position: absolute; 
+}
+
+@keyframes wave2 {
+  0% { x: -400px; bottom: 0}
+  100% { x: 0; }
+}
+
+
+@keyframes fill-up2 {
+  0% {
+      y: 130px;
+  }
+  100% {
+      y: 5px
+  }
+}
+
+
+.water-fill3 {
+  animation: wave3 0.7s infinite linear, 
+             fill-up3 8s ease-out forwards; position: absolute; 
+}
+
+@keyframes wave3 {
+  0% { x: -400px; bottom: 0}
+  100% { x: 0; }
+}
+
+
+@keyframes fill-up3 {
+  0% {
+      y: 130px;
+  }
+  100% {
+      y: 20px
+  }
+}
+
+
+.water-fill4 {
+  animation: wave4 0.7s infinite linear, 
+             fill-up4 8s ease-out forwards; position: absolute; 
+}
+
+@keyframes wave4 {
+  0% { x: -400px; bottom: 0}
+  100% { x: 0; }
+}
+
+
+@keyframes fill-up4 {
+  0% {
+      y: 130px;
+  }
+  100% {
+      y: -40px
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*웹사이트 슬라이드*/
+    .swiper-container {
+      width: 750px;
+      height: 480px;
+      margin-top: 150px;
+        
+        z-index: 5;
+        position: absolute; left:-3px; bottom: -30px
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+.swiper-slide a {
+     position: absolute; left: 0; top: 0
+}

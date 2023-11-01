@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>디자인샵 쇼핑몰</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+    <script src="script/jquery-3.4.1.min.js"></script>
+    <script src="script/motion.js"></script>
+    <script>
+        //alert(location.href)
+        //스크립트에서 글자를 쓸때는 큰따옴표 ""를쓰거나 작은따옴표''를 스면됨
+    </script>
+
+
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="top">
+            <div class="search_box">
+                <form action="" method="">
+                    <fieldset>
+                        <legend>검색</legend>
+                        <input type="text">
+                        <input type="image" src="images/search_button.png">
+                    </fieldset>
+
+                </form>
+            </div>
+            <h1><a href="#"><img src="images/logo2.png"></a></h1>
+            <ul class="topmenu">
+                <li><a href="#">로그인/회원가입</a></li>
+                <li><a href="#">마이페이지</a></li>
+                <li><a href="#">주문/배송</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">장바구니</a></li>
+            </ul>
+
+            <!--로그인후-->
+            <ul class="topmenu_logout">
+                <li><a href="#">로그아웃</a></li>
+                <li><a href="#">마이페지</a></li>
+                <li><a href="#">주문/배송</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">장바구니</a></li>
+            </ul>
+            <!--로그인후-->
+        </div>
+        <nav class="gnb_box">
+            <ul class="gnb">
+                <li><a href="#">디자인문구</a></li>
+                <li><a href="#">키덜트/취미</a></li>
+                <li><a href="#">여행</a></li>
+                <li><a href="#">패브릭/생활</a></li>
+                <li><a href="#">패션잡화</a></li>
+                <li><a href="#">뷰티</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="section_subbox">
+
+
+        <div class="prod_option_box">
+            <div class="title">
+                <h3>DAY MAKE-UP POUCH</h3>
+                <p><img src="images/icon.jpg"></p>
+            </div>
+            <div class="prod_img">
+                <p class="imgzone"><img src="images/best_sb1.png"></p>
+                <ul>
+                    <li><img src="images/best_sb1.png"></li>
+                    <li><img src="images/best_sb12.jpg"></li>
+                    <li><img src="images/best_sb13.jpg"></li>
+                </ul>
+            </div>
+            <div class="option_box">
+                <form action="" method="POST">
+                    <ul class="prod_name">
+                        <li class="subject">상품명 :</li>
+                        <li class="pouch">DAY MAKE-UP POUCH</li>
+                    </ul>
+                    <ul class="price">
+                        <li class="subject2">(최소주문수량 1개이상)</li>
+                        
+                    </ul>
+                    <ul class="option">
+                            <li class="subject3">수량을 선택해주세요</li>
+                        </ul>
+                    <ul class="option1">
+                        <li class="subject">색상선택:</li>
+                        <li class="color">
+                                <select name="birth">
+                                    <option>color선택</option>
+                                    <option value="all black">all black</option>
+                                    <option value="black(pink)">black(pink)</option>
+                                    <option value="burgundy">burgundy</option>
+                                    <option value="blue">blue</option>
+                                    <option value="cherry">cherry</option>
+                                </select>
+                            </li>
+                    </ul>
+                    <ul class="option2">
+                        <li class="subject4"></li>
+                        <li>
+                            <div>
+                                <input type="text" value="1" name="option2" id="option2">
+                                <span class="up">▲</span>
+                                <span class="down">▼</span>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="tatal">
+                        <li class="subject">DAY MAKE-UP POUCH</li>
+                        <li>
+                            <span class="pro">총 상품금액(수량):</span>
+                            <span class="total_price">12500</span>
+                            <span class="ea">(<strong>1</strong>)개</span>
+                        </li>
+                    </ul>
+                </form>
+                <div class="btn_box">
+                    <button class="btn_order"><a href="#">바로 구매하기</a></button>
+                    <button class="buname" type=""><a href="#">장바구니 담기</a></button>
+                    <button class="buname"><a href="#">관심상품 등록</a></button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="shop_info01" class="shop_info">
+            <ul class="info_nation">
+                <li class="selected"><a href="#shop_info01">상품상세정보</a><img src="images/detail.jpg"></li>
+                <li><a href="#shop_info02">결제/배송정보</a></li>
+                <li><a href="#shop_info03">교환/반품/환불안내</a></li>
+                <li><a href="#shop_info04">상품사용후기</a></li>
+                <li><a href="#shop_info05">상품Q&amp;A</a></li>
+                <li><a href="#shop_info06">관련상품</a></li>
+            </ul>
+            <p></p>
+        </div>
+
+        <div id="shop_info02" class="shop_info">
+            <ul class="info_nation">
+                <li><a href="#shop_info01">상품상세정보</a></li>
+                <li class="selected"><a href="#shop_info02">결제/배송정보</a></li>
+                <li><a href="#shop_info03">교환/반품/환불안내</a></li>
+                <li><a href="#shop_info04">상품사용후기</a></li>
+                <li><a href="#shop_info05">상품Q&amp;A</a></li>
+                <li><a href="#shop_info06">관련상품</a></li>
+            </ul>
+            <p></p>
+        </div>
+
+        <div id="shop_info03" class="shop_info">
+            <ul class="info_nation">
+                <li><a href="#shop_info01">상품상세정보</a></li>
+                <li><a href="#shop_info02">결제/배송정보</a></li>
+                <li class="selected"><a href="#shop_info03">교환/반품/환불안내</a></li>
+                <li><a href="#shop_info04">상품사용후기</a></li>
+                <li><a href="#shop_info05">상품Q&amp;A</a></li>
+                <li><a href="#shop_info06">관련상품</a></li>
+            </ul>
+            <p></p>
+        </div>
+
+        <div id="shop_info04" class="shop_info">
+            <ul class="info_nation">
+                <li><a href="#shop_info01">상품상세정보</a></li>
+                <li><a href="#shop_info02">결제/배송정보</a></li>
+                <li><a href="#shop_info03">교환/반품/환불안내</a></li>
+                <li class="selected"><a href="#shop_info04">상품사용후기</a></li>
+                <li><a href="#shop_info05">상품Q&amp;A</a></li>
+                <li><a href="#shop_info06">관련상품</a></li>
+            </ul>
+            <p></p>
+        </div>
+
+        <div id="shop_info05" class="shop_info">
+            <ul class="info_nation">
+                <li><a href="#shop_info01">상품상세정보</a></li>
+                <li><a href="#shop_info02">결제/배송정보</a></li>
+                <li><a href="#shop_info03">교환/반품/환불안내</a></li>
+                <li><a href="#shop_info04">상품사용후기</a></li>
+                <li class="selected"><a href="#shop_info05">상품Q&amp;A</a></li>
+                <li><a href="#shop_info06">관련상품</a></li>
+            </ul>
+            <p></p>
+        </div>
+
+        <div id="shop_info06" class="shop_info">
+            <ul class="info_nation">
+                <li><a href="#shop_info01">상품상세정보</a></li>
+                <li><a href="#shop_info02">결제/배송정보</a></li>
+                <li><a href="#shop_info03">교환/반품/환불안내</a></li>
+                <li><a href="#shop_info04">상품사용후기</a></li>
+                <li><a href="#shop_info05">상품Q&amp;A</a></li>
+                <li class="selected"><a href="#shop_info06">관련상품</a></li>
+            </ul>
+            <p></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footerbox">
+            <ul>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">인재채용</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보취급방침</a></li>
+                <li><a href="#">이메일 주소 무단수집거부</a></li>
+                <p>
+                    (주)DESIGN SHOP<br>
+                    행복구 행복동 행복시 대표 : 김현지 사업자등록번호:123-456-789 <br>
+                    통신판매업신고 제 0000-행복-0000호 개인정보 책임자 : 김현지 호스팅제공자 : (주)DESIGN SHOP<br>
+                    E-MAIL: khj930710@naver.com<br>
+
+                    COPYRIGHT © 2019 DESIGN SHOP CO. LTD ALL RIGHTS RESERVED.
+                </p>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+    <div class="today">
+
+        <ul>
+            <li><a href="#"><img src="images/best1.jpg"></a></li>
+            <li><a href="#"><img src="images/best2.jpg"></a></li>
+            <li><a href="#"><img src="images/best3.jpg"></a></li>
+
+        </ul>
+        <a href="#">top</a>
+    </div>
+
+
+
+
+</body>
+
+</html>

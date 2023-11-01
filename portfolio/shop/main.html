@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>디자인샵 쇼핑몰</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <script src="script/jquery-3.4.1.min.js"></script>
+    <script src="script/motion.js"></script>
+    <script>
+        //alert(location.href)
+        //스크립트에서 글자를 쓸때는 큰따옴표 ""를쓰거나 작은따옴표''를 스면됨
+    </script>
+    
+
+   
+</head>
+
+<body>
+    <header id="header">
+        <div class="top">
+            <div class="search_box">
+                <form action="" method="">
+                    <fieldset>
+                        <legend>검색</legend>
+                        <input type="text">
+                        <input type="image" src="images/search_button.png">
+                    </fieldset>
+
+                </form>
+            </div>
+            <h1><a href="#"><img src="images/logo2.png"></a></h1>
+            <ul class="topmenu">
+                <li><a href="#">로그인/회원가입</a></li>
+                <li><a href="#">마이페이지</a></li>
+                <li><a href="#">주문/배송</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">장바구니</a></li>
+            </ul>
+
+            <!--로그인후-->
+            <ul class="topmenu_logout">
+                <li><a href="#">로그아웃</a></li>
+                <li><a href="#">마이페지</a></li>
+                <li><a href="#">주문/배송</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">장바구니</a></li>
+            </ul>
+            <!--로그인후-->
+        </div>
+        <nav class="gnb_box">
+            <ul class="gnb">
+                <li><a href="#">디자인문구</a></li>
+                <li><a href="#">키덜트/취미</a></li>
+                <li><a href="#">여행</a></li>
+                <li><a href="#">패브릭/생활</a></li>
+                <li><a href="#">패션잡화</a></li>
+                <li><a href="#">뷰티</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div id="visual">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/bg2.jpg"></div>
+                <div class="swiper-slide"><img src="images/bg.jpg"></div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+
+    </div>
+
+
+    <section id="sec1_pop">
+        <div class="pop_box">
+            <h2>BEST ITME</h2>
+                <ul>
+                    <li>
+                        <span class="ranking">1</span>
+                        <div class="box">
+                            <a href="#"><img src="images/best1.jpg"></a>
+                            <div>
+                                <h3>오토온탑 화이트 손선풍기</h3>
+                                <span class="price">22.000</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="ranking">2</span>
+                        <div class="box">
+                        <a href="#"><img src="images/best2.jpg" ></a>
+                        <div>
+                            <h3>캐리어 아이렌 20인치</h3>
+                            <span class="price">65.000</span>
+                        </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="ranking">3</span>
+                        <div class="box">
+                        <a href="#"><img src="images/best3.jpg" ></a>
+                        <div>
+                            <h3>애플정품 블루투스이어폰에어팟</h3>
+                            <span class="price">237.000</span>
+                        </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="ranking">4</span>
+                        <div class="box">
+                        <a href="#"><img src="images/best4.jpg"></a>
+                        <div>
+                            <h3>체리 에코백</h3>
+                            <span class="price">10.800</span>
+                        </div>
+                        </div>
+                    </li>
+                </ul>
+        </div>
+    </section>
+    <section id="sec2_recom">
+        <div class="recom_box">
+            <h2>Hot Brand</h2>
+            <ul>
+                <li><a href="#"><img src="images/hot.jpg"></a></li>
+                <li><a href="#"><img src="images/hot2.jpg"></a></li>
+                <li><a href="#"><img src="images/hot3.jpg"></a></li>
+                <li><a href="#"><img src="images/hot4.jpg"></a></li>
+                <span class="name">페이스 수첩 토이스토리(5종)<br>6.000</span>
+                <span class="name2">레트로 서프클럽 맥주잔<br>13.000</span>
+                <span class="name3">보냉가방<br>22.000</span>
+                <span class="name4">햄버거 에어팟 케이스<br>9.900</span>
+            </ul>
+        </div>
+    </section>
+    <section id="sec3_new">
+        <div class="new_box">
+            <h2>NEW ARRIVAL</h2>
+            <ul>
+                <li><a href="#"><img src="images/new.jpg"></a></li>
+                <li><a href="#"><img src="images/new2.jpg"></a></li>
+                <li><a href="#"><img src="images/new3.jpg"></a></li>
+                <li><a href="#"><img src="images/new4.jpg"></a></li>
+                <span class="name5">어린왕자의 여우북 커버<br>13.500</span>
+                <span class="name6">디퓨저 퍼플<br>34.300</span>
+                <span class="name7">스누피하우스<br>13.000</span>
+                <span class="name8">에빙플랜드 스터디 플래너<br>10.800</span>
+            </ul>
+        </div>
+    </section>
+    <section id="sec4_banner">
+        <h2>DESIGN SHOP</h2>
+        <p>일상에 디자인을 더하다</p>
+    </section>
+    <section id="sec5_normal">
+        <div class="normal_box">
+            <h2>일반상품</h2>
+            <ul>
+                <li><a href="#"><img src="images/normal.jpg"></a></li>
+                <li><a href="#"><img src="images/normal2.jpg"></a></li>
+                <li><a href="#"><img src="images/normal3.jpg"></a></li>
+                <li><a href="#"><img src="images/normal4.jpg"></a></li>
+                <li><a href="#"><img src="images/normal5.jpg"></a></li>
+                <li><a href="#"><img src="images/normal6.jpg"></a></li>
+                <li><a href="#"><img src="images/normal7.jpg"></a></li>
+                <li><a href="#"><img src="images/normal8.jpg"></a></li>
+                <span class="name9">종이파일 파인애플얼굴<br>20.000</span>
+                <span class="name10">수면안대 베어자수 그레이<br>4.500</span>
+                <span class="name11">플로랄 핸드크림 세트<br>4.500</span>
+                <span class="name12">노트북파이츠 블랙레쟈 13인치<br>20.000</span>
+                <span class="name13">에어팟 케이스 하트<br>8.500</span>
+                <span class="name14">아이론 봉고데기<br>25.000</span>
+                <span class="name15">icube 카드usb메모리 (8gb)<br>17.900</span>
+                <span class="name16">런던 토스트 파우치<br>10.900</span>
+            </ul>
+
+        </div>
+    </section>
+    <footer>
+        <div class="footerbox">
+        <ul>
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">인재채용</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보취급방침</a></li>
+            <li><a href="#">이메일 주소 무단수집거부</a></li>
+            <p>
+                    (주)DESIGN SHOP<br>
+                    행복구 행복동 행복시  대표 : 김현지 사업자등록번호:123-456-789 <br>
+                    통신판매업신고 제 0000-행복-0000호  개인정보 책임자 : 김현지 호스팅제공자 : (주)DESIGN SHOP<br>
+                    E-MAIL: khj930710@naver.com<br>
+                    
+                     COPYRIGHT © 2019 DESIGN SHOP CO. LTD ALL RIGHTS RESERVED. 
+            </p>
+        </ul>
+        </div>
+    </footer>
+
+
+
+    <div class="today">
+        
+        <ul>
+            <li><a href="#"><img src="images/best1.jpg"></a></li>
+            <li><a href="#"><img src="images/best2.jpg"></a></li>
+            <li><a href="#"><img src="images/best3.jpg"></a></li>
+
+        </ul>
+        <a href="#">top</a>
+    </div>
+
+
+    <script src="script/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            autoplay:{
+                delay:3000,
+                disableOnIteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+</body>
+
+</html>
